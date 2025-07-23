@@ -2762,7 +2762,7 @@ td {
                                 <strong>Hosting Environment:</strong> AWS Commercial (US-East)
                             </div>
                             <div class="trust-item">
-                                <strong>Evidence Repository:</strong> <a href="https://github.com/Meridian-Knowledge-Solutions/fedramp_20x_public_submission_live" target="_blank" class="trust-link">GitHub Public Repo</a>
+                                <strong>Evidence Repository:</strong> <a href="https://github.com/Meridian-Knowledge-Solutions/fedramp_20x_public_submission-live" target="_blank" class="trust-link">GitHub Public Repo</a>
                             </div>
                             <div class="trust-item">
                                 <strong>Validation Data:</strong> 
@@ -2937,7 +2937,7 @@ td {
                 <pre style="background: var(--bg-accent); color: var(--text-primary); padding: 15px; border-radius: 5px; overflow-x: auto; border: 1px solid var(--border-color);">
 // Fetch current compliance status
 async function getAuthorizationSummary() {
-    const base = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission_live';
+    const base = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission-live';
     const response = await fetch(`${base}/unified_ksi_validations.json`);
     const data = await response.json();
     
@@ -3174,7 +3174,7 @@ async function getAuthorizationSummary() {
                 <pre style="background: var(--bg-accent); padding: 15px; border-radius: 6px; overflow-x: auto; border: 1px solid var(--border-color);">
 // Fetch current SCN classification status
 async function getSCNStatus() {
-    const base = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission_live';
+    const base = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission-live';
     
     // Get current SCN classification
     const scnResponse = await fetch(`${base}/scn_automation/scn_classification.json`);
@@ -4404,7 +4404,7 @@ ${ksi.assertion_reason || 'No detailed reason provided'}
 Please provide guidance on how to address this ${ksi.status === 'failed' ? 'compliance failure' : ksi.status === 'warning' ? 'low risk finding' : 'improvement opportunity'}.`);
 
             const labels = statusLabels[ksi.status] || 'general-compliance';
-            const githubUrl = `https://github.com/Meridian-Knowledge-Solutions/fedramp_20x_public_submission_live/issues/new?title=${issueTitle}&body=${issueBody}&labels=${labels}`;
+            const githubUrl = `https://github.com/Meridian-Knowledge-Solutions/fedramp_20x_public_submission-live/issues/new?title=${issueTitle}&body=${issueBody}&labels=${labels}`;
             window.open(githubUrl, '_blank');
         }
 
@@ -4685,7 +4685,7 @@ Please provide guidance on how to address this ${ksi.status === 'failed' ? 'comp
         // Enhanced SCN Data Loading and Display
         class SCNDashboard {
             constructor() {
-                this.baseUrl = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission_live/scn_automation';
+                this.baseUrl = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission-live/scn_automation';
                 this.loadSCNData();
                 this.loadEnhancedStatus();
                 
