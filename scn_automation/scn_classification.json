@@ -1,0 +1,876 @@
+{
+  "timestamp": "2025-07-23T18:14:55.848198",
+  "scn_type": "routine_recurring",
+  "emergency_mode": false,
+  "requires_notification": false,
+  "service_offering_fedramp_id": "FR2527956755",
+  "3pao_name": "Fortreum, LLC",
+  "related_poam": null,
+  "scn_type_explanation": "Regular operational maintenance per FRD-SCN-02",
+  "short_description": "Change involving 57 files",
+  "reason_for_change": "Operational improvement and compliance maintenance",
+  "changed_files": [
+    ".github/workflows/FedRAMP 20x CLI Validation Pipeline.yaml",
+    "docs/ksi_rules/KSI-CED-01.md",
+    "docs/ksi_rules/KSI-CED-02.md",
+    "docs/ksi_rules/KSI-CMT-01.md",
+    "docs/ksi_rules/KSI-CMT-02.md",
+    "docs/ksi_rules/KSI-CMT-03.md",
+    "docs/ksi_rules/KSI-CMT-04.md",
+    "docs/ksi_rules/KSI-CMT-05.md",
+    "docs/ksi_rules/KSI-CNA-01.md",
+    "docs/ksi_rules/KSI-CNA-02.md",
+    "docs/ksi_rules/KSI-CNA-03.md",
+    "docs/ksi_rules/KSI-CNA-04.md",
+    "docs/ksi_rules/KSI-CNA-05.md",
+    "docs/ksi_rules/KSI-CNA-06.md",
+    "docs/ksi_rules/KSI-CNA-07.md",
+    "docs/ksi_rules/KSI-IAM-01.md",
+    "docs/ksi_rules/KSI-IAM-02.md",
+    "docs/ksi_rules/KSI-IAM-03.md",
+    "docs/ksi_rules/KSI-IAM-04.md",
+    "docs/ksi_rules/KSI-IAM-05.md",
+    "docs/ksi_rules/KSI-IAM-06.md",
+    "docs/ksi_rules/KSI-INR-01.md",
+    "docs/ksi_rules/KSI-INR-02.md",
+    "docs/ksi_rules/KSI-INR-03.md",
+    "docs/ksi_rules/KSI-MLA-01.md",
+    "docs/ksi_rules/KSI-MLA-02.md",
+    "docs/ksi_rules/KSI-MLA-03.md",
+    "docs/ksi_rules/KSI-MLA-04.md",
+    "docs/ksi_rules/KSI-MLA-05.md",
+    "docs/ksi_rules/KSI-MLA-06.md",
+    "docs/ksi_rules/KSI-PIY-01.md",
+    "docs/ksi_rules/KSI-PIY-02.md",
+    "docs/ksi_rules/KSI-PIY-03.md",
+    "docs/ksi_rules/KSI-PIY-04.md",
+    "docs/ksi_rules/KSI-PIY-05.md",
+    "docs/ksi_rules/KSI-PIY-06.md",
+    "docs/ksi_rules/KSI-PIY-07.md",
+    "docs/ksi_rules/KSI-RPL-01.md",
+    "docs/ksi_rules/KSI-RPL-02.md",
+    "docs/ksi_rules/KSI-RPL-03.md",
+    "docs/ksi_rules/KSI-RPL-04.md",
+    "docs/ksi_rules/KSI-SVC-01.md",
+    "docs/ksi_rules/KSI-SVC-02.md",
+    "docs/ksi_rules/KSI-SVC-03.md",
+    "docs/ksi_rules/KSI-SVC-04.md",
+    "docs/ksi_rules/KSI-SVC-05.md",
+    "docs/ksi_rules/KSI-SVC-06.md",
+    "docs/ksi_rules/KSI-SVC-07.md",
+    "docs/ksi_rules/KSI-TPR-01.md",
+    "docs/ksi_rules/KSI-TPR-02.md",
+    "docs/ksi_rules/KSI-TPR-03.md",
+    "docs/ksi_rules/KSI-TPR-04.md",
+    "docs/ksi_rules/README.md",
+    "results/continuous_ksi_results.json",
+    "results/evidence_commit_metadata.json",
+    "results/validation_engine_results.json",
+    "unified_ksi_validations.json"
+  ],
+  "changed_files_detailed": [
+    {
+      "file": ".github/workflows/FedRAMP 20x CLI Validation Pipeline.yaml",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CED-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CED-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CMT-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CMT-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CMT-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CMT-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CMT-05.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-05.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-06.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-CNA-07.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-IAM-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-IAM-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-IAM-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-IAM-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-IAM-05.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-IAM-06.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-INR-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-INR-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-INR-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-MLA-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-MLA-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-MLA-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-MLA-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-MLA-05.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-MLA-06.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-05.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-06.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-PIY-07.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-RPL-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-RPL-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-RPL-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-RPL-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-05.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-06.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-SVC-07.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-TPR-01.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-TPR-02.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-TPR-03.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/KSI-TPR-04.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "docs/ksi_rules/README.md",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "results/continuous_ksi_results.json",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "results/evidence_commit_metadata.json",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "results/validation_engine_results.json",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "unified_ksi_validations.json",
+      "commit": {
+        "sha": "305b5252",
+        "full_sha_available": true,
+        "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-07-23 12:08:43 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@305b5252",
+        "verification_method": "git_log_local"
+      }
+    }
+  ],
+  "local_commits": [
+    {
+      "sha": "305b5252",
+      "full_sha_available": true,
+      "message": "Update FedRAMP 20x CLI Validation Pipeline.yaml",
+      "author": "Kwahf33",
+      "date": "2025-07-23 12:08:43 -0600",
+      "repository": "fedramp-20x-submission-final",
+      "commit_reference": "fedramp-20x-submission-final@305b5252",
+      "verification_method": "git_log_local"
+    }
+  ],
+  "file_count": 57,
+  "audit_trail": {
+    "local_changes_tracked": true,
+    "commit_verification_available": true,
+    "repository_tracking": "private-safe-mode",
+    "full_audit_trail_location": "Internal audit systems"
+  },
+  "terraform_analysis": {},
+  "external_analysis": {},
+  "customer_impact": {
+    "service_changes": "No customer-visible changes",
+    "configuration_changes": "No customer action required",
+    "opt_out_available": false
+  },
+  "timeline": {
+    "no_notification_required": true
+  },
+  "verification_plan": {
+    "ksi_validation": "Routine continuous validation",
+    "control_verification": "Standard monitoring",
+    "3pao_assessment": "Not required",
+    "timeline": "Ongoing"
+  },
+  "impact_analysis": {
+    "security_risk": "Low - standard maintenance",
+    "availability_impact": "No expected availability impact",
+    "business_impact": "Minimal - internal process improvements"
+  },
+  "approver": {
+    "name": "Meridian Security Team",
+    "title": "Chief Security Officer",
+    "approval_date": "2025-07-23T18:14:55.848198"
+  },
+  "fedramp_20x_compliance": {
+    "decision_tree_followed": "FRA-SCN-03",
+    "requirements_met": [
+      "FRR-SCN-02",
+      "FRR-SCN-03",
+      "FRR-SCN-04",
+      "FRR-SCN-RR-01"
+    ],
+    "audit_trail": true,
+    "machine_readable": true,
+    "local_commit_tracking": true,
+    "private_repo_safe": true
+  },
+  "required_stakeholders": [],
+  "3pao_review_required": false,
+  "3pao_review_justification": "Not required - no substantive security risks",
+  "customer_opt_out_feasible": false
+}
