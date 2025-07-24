@@ -4,7 +4,11 @@
 
 **Category:** Policy and Inventory
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-24 16:03
+=======
+**Last Check:** 2025-07-24 16:09
+>>>>>>> Stashed changes
 
 **What it validates:** Have dedicated staff and budget for security with executive support
 
@@ -19,4 +23,8 @@
 - WARNING Basic security organization (expand documentation): PASS Security organization documentation: security_budget_allocation_and_roles.pdf
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-24 16:03 UTC*
+=======
+*Generated 2025-07-24 16:09 UTC*
+>>>>>>> Stashed changes

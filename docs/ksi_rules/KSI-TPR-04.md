@@ -4,7 +4,11 @@
 
 **Category:** Third-Party Information Resources
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-24 16:03
+=======
+**Last Check:** 2025-07-24 16:09
+>>>>>>> Stashed changes
 
 **What it validates:** Monitor third party software information resources for upstream vulnerabilities, with contractual notification requirements or active monitoring services
 
@@ -26,4 +30,8 @@ WARNING Basic vulnerability monitoring capability: WARNING Inspector vulnerabili
 - PASS Manual evidence validation completed (vulnerability monitoring documentation verified)
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-24 16:03 UTC*
+=======
+*Generated 2025-07-24 16:09 UTC*
+>>>>>>> Stashed changes

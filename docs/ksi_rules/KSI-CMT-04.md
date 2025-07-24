@@ -4,7 +4,11 @@
 
 **Category:** Change Management
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-24 16:03
+=======
+**Last Check:** 2025-07-24 16:09
+>>>>>>> Stashed changes
 
 **What it validates:** Have a documented change management procedure
 
@@ -19,4 +23,8 @@
 - PASS Documented change management procedure - expand process controls (10%): PASS Change management documentation found: configuration_management_policy_and_procedures.pdf, weekly_change_management_meeting_final.png
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-24 16:03 UTC*
+=======
+*Generated 2025-07-24 16:09 UTC*
+>>>>>>> Stashed changes

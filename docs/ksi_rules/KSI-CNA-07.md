@@ -4,7 +4,11 @@
 
 **Category:** Cloud Native Architecture
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-24 16:03
+=======
+**Last Check:** 2025-07-24 16:09
+>>>>>>> Stashed changes
 
 **What it validates:** Ensure cloud-native information resources are implemented based on host provider's best practices and documented guidance
 
@@ -57,7 +61,7 @@ PASS Good AWS best practices foundation (58%): PASS CloudTrail excellently confi
 - PASS Global service monitoring: CloudTrail capturing global AWS events
 - PASS Real-time log analysis: CloudTrail integrated with CloudWatch Logs
 - PASS Enterprise governance: Organization-wide CloudTrail
-- PASS IAM best practices: 59 roles vs 2 users (service-oriented architecture)
+- PASS IAM best practices: 60 roles vs 2 users (service-oriented architecture)
 - PASS Managed services foundation: 2 S3 buckets (consider adding compute layer)
 - PASS Storage optimization: 2 S3 buckets (cost-effective storage)
 - PASS Monitoring foundation ready: CloudWatch available (alarms optional for pilot environments)
@@ -65,4 +69,8 @@ PASS Good AWS best practices foundation (58%): PASS CloudTrail excellently confi
 - PASS Enterprise governance: AWS Organizations with centralized management
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-24 16:03 UTC*
+=======
+*Generated 2025-07-24 16:09 UTC*
+>>>>>>> Stashed changes

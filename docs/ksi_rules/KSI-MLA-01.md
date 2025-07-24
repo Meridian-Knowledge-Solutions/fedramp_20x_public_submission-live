@@ -4,7 +4,11 @@
 
 **Category:** Monitoring, Logging, and Auditing
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-24 16:03
+=======
+**Last Check:** 2025-07-24 16:09
+>>>>>>> Stashed changes
 
 **What it validates:** Operate a Security Information and Event Management (SIEM) or similar system(s) for centralized, tamper-resistant logging of events, activities, and changes
 
@@ -40,8 +44,8 @@
 
 PASS Mature SIEM with solid log management and alerting (69%): PASS CloudTrail foundation: 1 trails (0 active, 1 tamper-resistant)
 - PASS Real-time log analysis: CloudTrail integrated with CloudWatch Logs
-- PASS Centralized log collection: 12 log groups (9 AWS services, 3 applications)
-- WARNING Partial retention management: 9/12 log groups with retention policies
+- PASS Centralized log collection: 13 log groups (10 AWS services, 3 applications)
+- WARNING Partial retention management: 9/13 log groups with retention policies
 - PASS Compliance-grade retention: 4 log groups with long-term retention (365+ days)
 - PASS Cryptographic infrastructure: 13 KMS keys available for log protection
 - INFO No CloudWatch alarms found for automated log analysis
@@ -53,4 +57,8 @@ PASS Mature SIEM with solid log management and alerting (69%): PASS CloudTrail f
 - PASS Enterprise-wide CloudTrail: Organization-wide audit coverage
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-24 16:03 UTC*
+=======
+*Generated 2025-07-24 16:09 UTC*
+>>>>>>> Stashed changes

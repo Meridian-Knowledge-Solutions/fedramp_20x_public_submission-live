@@ -7,7 +7,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771371",
+=======
+    "timestamp": "2025-07-24T16:09:11.460631",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -18,18 +22,30 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771382",
+=======
+    "timestamp": "2025-07-24T16:09:11.460643",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-CMT-01",
     "validation_id": "KSI-CMT-01",
     "assertion": true,
+<<<<<<< Updated upstream
     "assertion_reason": "\u2705 Enterprise-grade system modification logging and monitoring with automated response (90%): \u2705 System modification logging configured: 1 CloudTrail trails ready for activation; \u2705 Global service modification tracking: 1 trails monitoring global AWS services; \u2705 Multi-region modification coverage: 1 trails across all regions; \u2705 Tamper-resistant modification logs: 1 encrypted CloudTrail trails; \u2139\ufe0f AWS Config not configured (acceptable for low-impact pilot environments); \u2705 Comprehensive event logging: 12 log groups (6 application, 2 system, 4 AWS services); \u2705 Real-time modification detection: 3 EventBridge rules for change monitoring; \u2139\ufe0f No CloudWatch alarms for modification monitoring; \u2705 Modification notification infrastructure: 1 SNS topics for stakeholder alerts; \u2705 Automated modification response: 1 Lambda functions for change automation; \u2705 Instance-level modification tracking: 4 SSM-managed instances (4 online); \u2705 Enterprise-wide modification governance: AWS Organizations enables centralized change tracking; \u2705 Advanced organization features: SCPs for modification policy enforcement",
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
     "timestamp": "2025-07-24T16:03:06.771385",
+=======
+    "assertion_reason": "\u2705 Enterprise-grade system modification logging and monitoring with automated response (90%): \u2705 System modification logging configured: 1 CloudTrail trails ready for activation; \u2705 Global service modification tracking: 1 trails monitoring global AWS services; \u2705 Multi-region modification coverage: 1 trails across all regions; \u2705 Tamper-resistant modification logs: 1 encrypted CloudTrail trails; \u2139\ufe0f AWS Config not configured (acceptable for low-impact pilot environments); \u2705 Comprehensive event logging: 13 log groups (7 application, 2 system, 4 AWS services); \u2705 Real-time modification detection: 3 EventBridge rules for change monitoring; \u2139\ufe0f No CloudWatch alarms for modification monitoring; \u2705 Modification notification infrastructure: 1 SNS topics for stakeholder alerts; \u2705 Automated modification response: 1 Lambda functions for change automation; \u2705 Instance-level modification tracking: 4 SSM-managed instances (4 online); \u2705 Enterprise-wide modification governance: AWS Organizations enables centralized change tracking; \u2705 Advanced organization features: SCPs for modification policy enforcement",
+    "cli_command": "9 commands executed",
+    "cli_output_digest": "",
+    "cli_output_interpretation": "",
+    "timestamp": "2025-07-24T16:09:11.460646",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -40,7 +56,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771388",
+=======
+    "timestamp": "2025-07-24T16:09:11.460649",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -51,7 +71,11 @@
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771390",
+=======
+    "timestamp": "2025-07-24T16:09:11.460651",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -62,7 +86,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771393",
+=======
+    "timestamp": "2025-07-24T16:09:11.460654",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -73,7 +101,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771395",
+=======
+    "timestamp": "2025-07-24T16:09:11.460656",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -84,18 +116,26 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771398",
+=======
+    "timestamp": "2025-07-24T16:09:11.460659",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-CNA-02",
     "validation_id": "KSI-CNA-02",
     "assertion": true,
-    "assertion_reason": "\u2705 Excellent attack surface minimization and lateral movement prevention (85%): \u2705 Strong attack surface minimization: 6/8 private subnets (75%); \u2705 Good AZ segmentation: 8 subnets across 2 availability zones; \u2705 Strong micro-segmentation: 11/12 custom security groups; \u2705 Lateral movement barriers: 9/12 security groups with specific rules; \u2705 Minimal compute exposure: 4/4 instances in private subnets; \u2705 Database isolation: All 1 RDS instances private; \u2705 Controlled service exposure: Single internet-facing load balancer with private backend services; \u2705 Lambda isolation: 1/4 functions in VPC; \u2705 Advanced segmentation barriers: 1/1 Network ACLs with custom isolation rules",
+    "assertion_reason": "\u2705 Excellent attack surface minimization and lateral movement prevention (85%): \u2705 Strong attack surface minimization: 6/8 private subnets (75%); \u2705 Good AZ segmentation: 8 subnets across 2 availability zones; \u2705 Strong micro-segmentation: 11/12 custom security groups; \u2705 Lateral movement barriers: 9/12 security groups with specific rules; \u2705 Minimal compute exposure: 4/4 instances in private subnets; \u2705 Database isolation: All 1 RDS instances private; \u2705 Controlled service exposure: Single internet-facing load balancer with private backend services; \u2705 Lambda isolation: 1/5 functions in VPC; \u2705 Advanced segmentation barriers: 1/1 Network ACLs with custom isolation rules",
     "cli_command": "11 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771400",
+=======
+    "timestamp": "2025-07-24T16:09:11.460661",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -106,18 +146,26 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771403",
+=======
+    "timestamp": "2025-07-24T16:09:11.460664",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-CNA-04",
     "validation_id": "KSI-CNA-04",
     "assertion": true,
-    "assertion_reason": "\u26a0\ufe0f Minimal immutable infrastructure (12%) - strengthen patterns: \u274c No compute instances found for IaC assessment; \u2705 Serverless functions: 4 Lambda functions (inherently immutable); \u2139\ufe0f No launch templates found; \u2139\ufe0f No Auto Scaling Groups found",
+    "assertion_reason": "\u26a0\ufe0f Minimal immutable infrastructure (12%) - strengthen patterns: \u274c No compute instances found for IaC assessment; \u2705 Serverless functions: 5 Lambda functions (inherently immutable); \u2139\ufe0f No launch templates found; \u2139\ufe0f No Auto Scaling Groups found",
     "cli_command": "7 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771405",
+=======
+    "timestamp": "2025-07-24T16:09:11.460666",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -128,7 +176,11 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771407",
+=======
+    "timestamp": "2025-07-24T16:09:11.460673",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -139,18 +191,26 @@
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771409",
+=======
+    "timestamp": "2025-07-24T16:09:11.460676",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-CNA-07",
     "validation_id": "KSI-CNA-07",
     "assertion": true,
-    "assertion_reason": "\u2705 Good AWS best practices foundation (58%): \u2705 CloudTrail excellently configured: 'meridianks-Management-events' ready for activation (cost-optimized for pilot); \u2705 Multi-region audit coverage: CloudTrail spans all AWS regions; \u2705 Log integrity protection: CloudTrail log file validation enabled; \u2705 Encrypted audit logs: CloudTrail using KMS encryption; \u2705 Global service monitoring: CloudTrail capturing global AWS events; \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Enterprise governance: Organization-wide CloudTrail; \u2705 IAM best practices: 59 roles vs 2 users (service-oriented architecture); \u2705 Managed services foundation: 2 S3 buckets (consider adding compute layer); \u2705 Storage optimization: 2 S3 buckets (cost-effective storage); \u2705 Monitoring foundation ready: CloudWatch available (alarms optional for pilot environments); \u2705 Compliance service available: AWS Config ready for rule deployment (optional for pilot); \u2705 Enterprise governance: AWS Organizations with centralized management",
+    "assertion_reason": "\u2705 Good AWS best practices foundation (58%): \u2705 CloudTrail excellently configured: 'meridianks-Management-events' ready for activation (cost-optimized for pilot); \u2705 Multi-region audit coverage: CloudTrail spans all AWS regions; \u2705 Log integrity protection: CloudTrail log file validation enabled; \u2705 Encrypted audit logs: CloudTrail using KMS encryption; \u2705 Global service monitoring: CloudTrail capturing global AWS events; \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Enterprise governance: Organization-wide CloudTrail; \u2705 IAM best practices: 60 roles vs 2 users (service-oriented architecture); \u2705 Managed services foundation: 2 S3 buckets (consider adding compute layer); \u2705 Storage optimization: 2 S3 buckets (cost-effective storage); \u2705 Monitoring foundation ready: CloudWatch available (alarms optional for pilot environments); \u2705 Compliance service available: AWS Config ready for rule deployment (optional for pilot); \u2705 Enterprise governance: AWS Organizations with centralized management",
     "cli_command": "12 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771416",
+=======
+    "timestamp": "2025-07-24T16:09:11.460678",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -161,7 +221,11 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771419",
+=======
+    "timestamp": "2025-07-24T16:09:11.460680",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -172,29 +236,41 @@
     "cli_command": "5 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771421",
+=======
+    "timestamp": "2025-07-24T16:09:11.460683",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-IAM-03",
     "validation_id": "KSI-IAM-03",
     "assertion": true,
-    "assertion_reason": "\u26a0\ufe0f Mostly secure service authentication (room for improvement): \u2705 59 IAM roles available (28 service-oriented); \u2705 2 users found, none appear to be service accounts; \u2705 No access key information accessible; \u2139\ufe0f No EC2 instance profile information available",
+    "assertion_reason": "\u26a0\ufe0f Mostly secure service authentication (room for improvement): \u2705 60 IAM roles available (28 service-oriented); \u2705 2 users found, none appear to be service accounts; \u2705 No access key information accessible; \u2139\ufe0f No EC2 instance profile information available",
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771423",
+=======
+    "timestamp": "2025-07-24T16:09:11.460685",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-IAM-04",
     "validation_id": "KSI-IAM-04",
     "assertion": true,
-    "assertion_reason": "\u2705 Excellent modern authorization model (95%): \u2705 IAM Identity Center configured: 1 active instance(s); \u2705 Permission sets deployed: 2 sets (modern role-based access); \u2705 Modern authorization model: Permission sets provide role-based, attribute-based, and just-in-time access; \u2705 Active permission sets: AdministratorAccess, ReadOnlyAccess; \u2705 Role-based access pattern: 36 user-oriented roles vs 2 users (23 service roles); \u2705 Controlled user count: 2 users (excellent for least privilege); \u2705 Controlled policy count: 4 custom policies (good least privilege); \u2705 Role-based session: Using temporary credentials (just-in-time access)",
+    "assertion_reason": "\u2705 Excellent modern authorization model (95%): \u2705 IAM Identity Center configured: 1 active instance(s); \u2705 Permission sets deployed: 2 sets (modern role-based access); \u2705 Modern authorization model: Permission sets provide role-based, attribute-based, and just-in-time access; \u2705 Active permission sets: AdministratorAccess, ReadOnlyAccess; \u2705 Role-based access pattern: 37 user-oriented roles vs 2 users (23 service roles); \u2705 Controlled user count: 2 users (excellent for least privilege); \u2705 Controlled policy count: 5 custom policies (good least privilege); \u2705 Role-based session: Using temporary credentials (just-in-time access)",
     "cli_command": "6 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771426",
+=======
+    "timestamp": "2025-07-24T16:09:11.460688",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -205,7 +281,11 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771428",
+=======
+    "timestamp": "2025-07-24T16:09:11.460690",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -216,7 +296,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771430",
+=======
+    "timestamp": "2025-07-24T16:09:11.460693",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -227,7 +311,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771433",
+=======
+    "timestamp": "2025-07-24T16:09:11.460695",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -238,7 +326,11 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771435",
+=======
+    "timestamp": "2025-07-24T16:09:11.460698",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -249,29 +341,45 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771437",
+=======
+    "timestamp": "2025-07-24T16:09:11.460700",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-MLA-01",
     "validation_id": "KSI-MLA-01",
     "assertion": true,
+<<<<<<< Updated upstream
     "assertion_reason": "\u2705 Mature SIEM with solid log management and alerting (69%): \u2705 CloudTrail foundation: 1 trails (0 active, 1 tamper-resistant); \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Centralized log collection: 12 log groups (9 AWS services, 3 applications); \u26a0\ufe0f Partial retention management: 9/12 log groups with retention policies; \u2705 Compliance-grade retention: 4 log groups with long-term retention (365+ days); \u2705 Cryptographic infrastructure: 13 KMS keys available for log protection; \u2139\ufe0f No CloudWatch alarms found for automated log analysis; \u2705 Advanced threat detection: 20 Security Hub findings (20 active); \u2139\ufe0f No Config delivery channels found for compliance log delivery; \u2705 Enterprise-wide logging: AWS Organizations enables centralized multi-account SIEM; \u2705 Multi-region audit coverage: 1 trails across all regions; \u2705 Global service monitoring: 1 trails capturing global AWS events; \u2705 Enterprise-wide CloudTrail: Organization-wide audit coverage",
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
     "timestamp": "2025-07-24T16:03:06.771440",
+=======
+    "assertion_reason": "\u2705 Mature SIEM with solid log management and alerting (69%): \u2705 CloudTrail foundation: 1 trails (0 active, 1 tamper-resistant); \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Centralized log collection: 13 log groups (10 AWS services, 3 applications); \u26a0\ufe0f Partial retention management: 9/13 log groups with retention policies; \u2705 Compliance-grade retention: 4 log groups with long-term retention (365+ days); \u2705 Cryptographic infrastructure: 13 KMS keys available for log protection; \u2139\ufe0f No CloudWatch alarms found for automated log analysis; \u2705 Advanced threat detection: 20 Security Hub findings (20 active); \u2139\ufe0f No Config delivery channels found for compliance log delivery; \u2705 Enterprise-wide logging: AWS Organizations enables centralized multi-account SIEM; \u2705 Multi-region audit coverage: 1 trails across all regions; \u2705 Global service monitoring: 1 trails capturing global AWS events; \u2705 Enterprise-wide CloudTrail: Organization-wide audit coverage",
+    "cli_command": "8 commands executed",
+    "cli_output_digest": "",
+    "cli_output_interpretation": "",
+    "timestamp": "2025-07-24T16:09:11.460702",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-MLA-02",
     "validation_id": "KSI-MLA-02",
     "assertion": true,
-    "assertion_reason": "\u2705 Production-ready log review with good automation (50%): \u2705 Log review notifications: 1 SNS topics for alert delivery; \u2705 Manual review capability: 12 log groups available for analysis; \u2705 Advanced log correlation: 1 Security Hub insights for intelligent analysis; \u2705 Audit event analysis: 10 recent CloudTrail events available for review; \u26a0\ufe0f Partial retention management: 9/12 log groups with retention policies; \u2705 Long-term audit capability: 4 log groups with compliance-grade retention (365+ days); \u2705 Enterprise log aggregation: AWS Organizations enables centralized multi-account log review",
+    "assertion_reason": "\u2705 Production-ready log review with good automation (50%): \u2705 Log review notifications: 1 SNS topics for alert delivery; \u2705 Manual review capability: 13 log groups available for analysis; \u2705 Advanced log correlation: 1 Security Hub insights for intelligent analysis; \u2705 Audit event analysis: 10 recent CloudTrail events available for review; \u26a0\ufe0f Partial retention management: 9/13 log groups with retention policies; \u2705 Long-term audit capability: 4 log groups with compliance-grade retention (365+ days); \u2705 Enterprise log aggregation: AWS Organizations enables centralized multi-account log review",
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771442",
+=======
+    "timestamp": "2025-07-24T16:09:11.460704",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -282,18 +390,30 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771444",
+=======
+    "timestamp": "2025-07-24T16:09:11.460709",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-MLA-04",
     "validation_id": "KSI-MLA-04",
     "assertion": true,
+<<<<<<< Updated upstream
     "assertion_reason": "\u2705 Enterprise-grade authenticated vulnerability scanning with comprehensive coverage (117%): \u2705 Inspector service operational: Responds to coverage queries and scanning requests; \u2705 Comprehensive scanning coverage: 4/4 instances under authenticated scanning; \u2705 Multi-service authenticated scanning: Inspector EC2, ECR scanning enabled; \u2705 Comprehensive service scanning: Both EC2 and ECR authenticated vulnerability assessment enabled; \u2705 System-level scanning capability: 4/4 SSM-managed instances for authenticated system assessment; \u2705 Serverless code analysis: 5 Lambda functions available for authenticated code vulnerability scanning; \u2705 Active Lambda scanning: 4 functions actively scanned by Inspector; \u2705 Comprehensive workload coverage: 3 service types available for authenticated scanning (EC2, Lambda, SSM); \u2705 Active vulnerability intelligence: 20 authenticated scan findings (1 critical, 12 high, 5 medium, 2 low); \u2705 Comprehensive vulnerability discovery: High-volume scanning indicates thorough authenticated assessment; \u2705 Automated discovery: Inspector service can automatically detect and scan new resources; \u2705 Enterprise scanning governance: AWS Organizations enables centralized multi-account vulnerability scanning; \u2705 Enterprise scanning integration: Multi-service Inspector configuration for comprehensive authenticated assessment",
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
     "timestamp": "2025-07-24T16:03:06.771447",
+=======
+    "assertion_reason": "\u2705 Enterprise-grade authenticated vulnerability scanning with comprehensive coverage (117%): \u2705 Inspector service operational: Responds to coverage queries and scanning requests; \u2705 Comprehensive scanning coverage: 4/4 instances under authenticated scanning; \u2705 Multi-service authenticated scanning: Inspector EC2, ECR scanning enabled; \u2705 Comprehensive service scanning: Both EC2 and ECR authenticated vulnerability assessment enabled; \u2705 System-level scanning capability: 4/4 SSM-managed instances for authenticated system assessment; \u2705 Serverless code analysis: 5 Lambda functions available for authenticated code vulnerability scanning; \u2705 Active Lambda scanning: 5 functions actively scanned by Inspector; \u2705 Comprehensive workload coverage: 3 service types available for authenticated scanning (EC2, Lambda, SSM); \u2705 Active vulnerability intelligence: 20 authenticated scan findings (1 critical, 12 high, 5 medium, 2 low); \u2705 Comprehensive vulnerability discovery: High-volume scanning indicates thorough authenticated assessment; \u2705 Automated discovery: Inspector service can automatically detect and scan new resources; \u2705 Enterprise scanning governance: AWS Organizations enables centralized multi-account vulnerability scanning; \u2705 Enterprise scanning integration: Multi-service Inspector configuration for comprehensive authenticated assessment",
+    "cli_command": "8 commands executed",
+    "cli_output_digest": "",
+    "cli_output_interpretation": "",
+    "timestamp": "2025-07-24T16:09:11.460712",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -304,7 +424,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771449",
+=======
+    "timestamp": "2025-07-24T16:09:11.460714",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -315,7 +439,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771451",
+=======
+    "timestamp": "2025-07-24T16:09:11.460716",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -326,7 +454,11 @@
     "cli_command": "5 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771454",
+=======
+    "timestamp": "2025-07-24T16:09:11.460719",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -337,7 +469,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771456",
+=======
+    "timestamp": "2025-07-24T16:09:11.460721",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -348,7 +484,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771458",
+=======
+    "timestamp": "2025-07-24T16:09:11.460724",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -359,7 +499,11 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771463",
+=======
+    "timestamp": "2025-07-24T16:09:11.460726",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -370,7 +514,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771466",
+=======
+    "timestamp": "2025-07-24T16:09:11.460729",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -381,7 +529,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771468",
+=======
+    "timestamp": "2025-07-24T16:09:11.460731",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -392,7 +544,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771470",
+=======
+    "timestamp": "2025-07-24T16:09:11.460733",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -403,7 +559,11 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771473",
+=======
+    "timestamp": "2025-07-24T16:09:11.460736",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -414,7 +574,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771475",
+=======
+    "timestamp": "2025-07-24T16:09:11.460738",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -425,7 +589,11 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771477",
+=======
+    "timestamp": "2025-07-24T16:09:11.460743",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -436,7 +604,11 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771479",
+=======
+    "timestamp": "2025-07-24T16:09:11.460746",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -447,7 +619,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771482",
+=======
+    "timestamp": "2025-07-24T16:09:11.460748",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -458,7 +634,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771484",
+=======
+    "timestamp": "2025-07-24T16:09:11.460751",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -469,7 +649,11 @@
     "cli_command": "7 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771487",
+=======
+    "timestamp": "2025-07-24T16:09:11.460754",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -480,7 +664,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771489",
+=======
+    "timestamp": "2025-07-24T16:09:11.460756",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -491,7 +679,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771493",
+=======
+    "timestamp": "2025-07-24T16:09:11.460758",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -502,7 +694,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771496",
+=======
+    "timestamp": "2025-07-24T16:09:11.460764",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -513,7 +709,11 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771498",
+=======
+    "timestamp": "2025-07-24T16:09:11.460766",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -524,7 +724,11 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771500",
+=======
+    "timestamp": "2025-07-24T16:09:11.460769",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -535,7 +739,11 @@
     "cli_command": "2 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771503",
+=======
+    "timestamp": "2025-07-24T16:09:11.460772",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -546,7 +754,11 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771505",
+=======
+    "timestamp": "2025-07-24T16:09:11.460774",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   },
   {
@@ -557,7 +769,11 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:06.771507",
+=======
+    "timestamp": "2025-07-24T16:09:11.460776",
+>>>>>>> Stashed changes
     "validation_method": "multi-command"
   }
 ]
