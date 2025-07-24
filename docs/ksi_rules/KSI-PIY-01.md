@@ -4,11 +4,7 @@
 
 **Category:** Policy and Inventory
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-07-24 16:03
-=======
-**Last Check:** 2025-07-24 16:09
->>>>>>> Stashed changes
+**Last Check:** 2025-07-24 18:02
 
 **What it validates:** Establish and maintain complete inventories of all information resources
 
@@ -32,12 +28,8 @@
 
 ## Latest Results
 
-PASS Complete information resource inventory maintained: PASS Comprehensive AWS resource inventory: 275 tagged resources discovered
+PASS Complete information resource inventory maintained: PASS Comprehensive AWS resource inventory: 274 tagged resources discovered
 - PASS Basic inventory documentation: complete_asset_inventory.xlsx
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-07-24 16:03 UTC*
-=======
-*Generated 2025-07-24 16:09 UTC*
->>>>>>> Stashed changes
+*Generated 2025-07-24 18:02 UTC*

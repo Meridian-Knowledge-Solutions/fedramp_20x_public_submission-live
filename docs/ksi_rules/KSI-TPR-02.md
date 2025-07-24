@@ -4,11 +4,7 @@
 
 **Category:** Third-Party Information Resources
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-07-24 16:03
-=======
-**Last Check:** 2025-07-24 16:09
->>>>>>> Stashed changes
+**Last Check:** 2025-07-24 18:02
 
 **What it validates:** Regularly confirm that services handling federal information or are likely to impact the confidentiality, integrity, or availability of federal information are FedRAMP authorized and securely configured
 
@@ -30,8 +26,4 @@ PASS Comprehensive FedRAMP service verification with integrated documentation (1
 - PASS Regular verification process included in comprehensive mapping
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-07-24 16:03 UTC*
-=======
-*Generated 2025-07-24 16:09 UTC*
->>>>>>> Stashed changes
+*Generated 2025-07-24 18:02 UTC*

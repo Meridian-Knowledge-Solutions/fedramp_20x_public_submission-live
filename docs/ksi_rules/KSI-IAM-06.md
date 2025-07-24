@@ -4,11 +4,7 @@
 
 **Category:** Identity and Access Management
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-07-24 16:03
-=======
-**Last Check:** 2025-07-24 16:09
->>>>>>> Stashed changes
+**Last Check:** 2025-07-24 18:02
 
 **What it validates:** Automatically disable or otherwise secure accounts with privileged access in response to suspicious activity
 
@@ -54,13 +50,9 @@ PASS Enterprise-grade automated response capabilities (91%): PASS Advanced threa
 - PASS Modern identity automation: Identity Center configured (1 instance(s))
 - PASS Built-in automated identity controls: Session management, conditional access, risk-based authentication
 - PASS Enterprise governance: Config rules managed centrally (multi-account architecture)
-- PASS Automated response functions: 3 security automation functions
+- PASS Automated response functions: 2 security automation functions
 - PASS Enterprise governance: CloudWatch alarms managed centrally (multi-account architecture)
 - INFO Multi-account architecture detected (governance centralized)
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-07-24 16:03 UTC*
-=======
-*Generated 2025-07-24 16:09 UTC*
->>>>>>> Stashed changes
+*Generated 2025-07-24 18:02 UTC*
