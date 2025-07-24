@@ -4,7 +4,7 @@
 
 **Category:** Monitoring, Logging, and Auditing
 **Status:** PASS
-**Last Check:** 2025-07-24 02:48
+**Last Check:** 2025-07-24 16:03
 
 **What it validates:** Rapidly detect and remediate or mitigate vulnerabilities
 
@@ -43,8 +43,8 @@ PASS Production-ready vulnerability detection with good automation (61%): FAIL S
 - PASS Multi-service vulnerability coverage: Both EC2 and ECR scanning for comprehensive assessment
 - PASS Automated patch management: 17 patch baselines (15 default, 2 custom)
 - PASS Tailored remediation: 2 custom patch baselines for targeted vulnerability response
-- PASS Active threat analysis: 50 active security findings (1 critical, 27 high)
+- PASS Active threat analysis: 50 active security findings (1 critical, 36 high)
 - PASS Enterprise vulnerability management: AWS Organizations enables centralized multi-account detection
 
 ---
-*Generated 2025-07-24 02:48 UTC*
+*Generated 2025-07-24 16:03 UTC*
