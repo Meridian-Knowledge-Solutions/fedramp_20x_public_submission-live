@@ -4,7 +4,11 @@
 
 **Category:** Recovery Planning
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-23 23:58
+=======
+**Last Check:** 2025-07-24 00:01
+>>>>>>> Stashed changes
 
 **What it validates:** Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO)
 
@@ -28,4 +32,8 @@ PASS RTO/RPO objectives defined with technical validation: PASS Core RTO/RPO doc
 - PASS Backup infrastructure supports RTO/RPO: 2 backup plans configured
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-23 23:58 UTC*
+=======
+*Generated 2025-07-24 00:01 UTC*
+>>>>>>> Stashed changes

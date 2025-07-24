@@ -4,7 +4,11 @@
 
 **Category:** Identity and Access Management
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-07-23 23:58
+=======
+**Last Check:** 2025-07-24 00:01
+>>>>>>> Stashed changes
 
 **What it validates:** Enforce multi-factor authentication (MFA) using methods that are difficult to intercept or impersonate (phishing-resistant MFA) for all user authentication
 
@@ -36,4 +40,8 @@ PASS Comprehensive federated MFA enforcement (100%): PASS AWS Identity Center: 1
 - PASS Federated MFA enforcement: External IdP (Okta) enforces MFA upstream of AWS
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-07-23 23:58 UTC*
+=======
+*Generated 2025-07-24 00:01 UTC*
+>>>>>>> Stashed changes
