@@ -7,7 +7,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185115",
+    "timestamp": "2025-07-24T02:48:13.224899",
     "validation_method": "multi-command"
   },
   {
@@ -18,7 +18,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185125",
+    "timestamp": "2025-07-24T02:48:13.224910",
     "validation_method": "multi-command"
   },
   {
@@ -29,7 +29,7 @@
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185128",
+    "timestamp": "2025-07-24T02:48:13.224913",
     "validation_method": "multi-command"
   },
   {
@@ -40,7 +40,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185131",
+    "timestamp": "2025-07-24T02:48:13.224916",
     "validation_method": "multi-command"
   },
   {
@@ -51,7 +51,7 @@
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185134",
+    "timestamp": "2025-07-24T02:48:13.224918",
     "validation_method": "multi-command"
   },
   {
@@ -62,7 +62,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185137",
+    "timestamp": "2025-07-24T02:48:13.224921",
     "validation_method": "multi-command"
   },
   {
@@ -73,7 +73,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185139",
+    "timestamp": "2025-07-24T02:48:13.224923",
     "validation_method": "multi-command"
   },
   {
@@ -84,18 +84,18 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185141",
+    "timestamp": "2025-07-24T02:48:13.224925",
     "validation_method": "multi-command"
   },
   {
     "ksi_id": "KSI-CNA-02",
     "validation_id": "KSI-CNA-02",
     "assertion": true,
-    "assertion_reason": "\u2705 Strong attack surface controls (80%): \u2705 Strong attack surface minimization: 6/8 private subnets (75%); \u2705 Good AZ segmentation: 8 subnets across 2 availability zones; \u2705 Strong micro-segmentation: 11/12 custom security groups; \u2705 Lateral movement barriers: 9/12 security groups with specific rules; \u2705 Minimal compute exposure: 4/4 instances in private subnets; \u2705 Database isolation: All 1 RDS instances private; \u2705 Controlled service exposure: Single internet-facing load balancer with private backend services; \u26a0\ufe0f Lambda exposure: 4 functions not in VPC (limited network isolation); \u2705 Advanced segmentation barriers: 1/1 Network ACLs with custom isolation rules",
+    "assertion_reason": "\u2705 Excellent attack surface minimization and lateral movement prevention (85%): \u2705 Strong attack surface minimization: 6/8 private subnets (75%); \u2705 Good AZ segmentation: 8 subnets across 2 availability zones; \u2705 Strong micro-segmentation: 11/12 custom security groups; \u2705 Lateral movement barriers: 9/12 security groups with specific rules; \u2705 Minimal compute exposure: 4/4 instances in private subnets; \u2705 Database isolation: All 1 RDS instances private; \u2705 Controlled service exposure: Single internet-facing load balancer with private backend services; \u2705 Lambda isolation: 1/4 functions in VPC; \u2705 Advanced segmentation barriers: 1/1 Network ACLs with custom isolation rules",
     "cli_command": "11 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185144",
+    "timestamp": "2025-07-24T02:48:13.224928",
     "validation_method": "multi-command"
   },
   {
@@ -106,7 +106,7 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185146",
+    "timestamp": "2025-07-24T02:48:13.224930",
     "validation_method": "multi-command"
   },
   {
@@ -117,7 +117,7 @@
     "cli_command": "7 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185149",
+    "timestamp": "2025-07-24T02:48:13.224933",
     "validation_method": "multi-command"
   },
   {
@@ -128,7 +128,7 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185151",
+    "timestamp": "2025-07-24T02:48:13.224935",
     "validation_method": "multi-command"
   },
   {
@@ -139,7 +139,7 @@
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185153",
+    "timestamp": "2025-07-24T02:48:13.224937",
     "validation_method": "multi-command"
   },
   {
@@ -150,7 +150,7 @@
     "cli_command": "12 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185156",
+    "timestamp": "2025-07-24T02:48:13.224939",
     "validation_method": "multi-command"
   },
   {
@@ -161,7 +161,7 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185158",
+    "timestamp": "2025-07-24T02:48:13.224942",
     "validation_method": "multi-command"
   },
   {
@@ -172,7 +172,7 @@
     "cli_command": "5 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185160",
+    "timestamp": "2025-07-24T02:48:13.224944",
     "validation_method": "multi-command"
   },
   {
@@ -183,7 +183,7 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185162",
+    "timestamp": "2025-07-24T02:48:13.224946",
     "validation_method": "multi-command"
   },
   {
@@ -194,7 +194,7 @@
     "cli_command": "6 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185165",
+    "timestamp": "2025-07-24T02:48:13.224949",
     "validation_method": "multi-command"
   },
   {
@@ -205,7 +205,7 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185167",
+    "timestamp": "2025-07-24T02:48:13.224951",
     "validation_method": "multi-command"
   },
   {
@@ -216,7 +216,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185170",
+    "timestamp": "2025-07-24T02:48:13.224953",
     "validation_method": "multi-command"
   },
   {
@@ -227,7 +227,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185172",
+    "timestamp": "2025-07-24T02:48:13.224956",
     "validation_method": "multi-command"
   },
   {
@@ -238,7 +238,7 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185174",
+    "timestamp": "2025-07-24T02:48:13.224958",
     "validation_method": "multi-command"
   },
   {
@@ -249,7 +249,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185176",
+    "timestamp": "2025-07-24T02:48:13.224960",
     "validation_method": "multi-command"
   },
   {
@@ -260,7 +260,7 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185179",
+    "timestamp": "2025-07-24T02:48:13.224962",
     "validation_method": "multi-command"
   },
   {
@@ -271,7 +271,7 @@
     "cli_command": "9 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185186",
+    "timestamp": "2025-07-24T02:48:13.224969",
     "validation_method": "multi-command"
   },
   {
@@ -282,7 +282,7 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185189",
+    "timestamp": "2025-07-24T02:48:13.224972",
     "validation_method": "multi-command"
   },
   {
@@ -293,7 +293,7 @@
     "cli_command": "8 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185191",
+    "timestamp": "2025-07-24T02:48:13.224974",
     "validation_method": "multi-command"
   },
   {
@@ -304,7 +304,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185194",
+    "timestamp": "2025-07-24T02:48:13.224979",
     "validation_method": "multi-command"
   },
   {
@@ -315,7 +315,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185196",
+    "timestamp": "2025-07-24T02:48:13.224981",
     "validation_method": "multi-command"
   },
   {
@@ -326,7 +326,7 @@
     "cli_command": "5 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185198",
+    "timestamp": "2025-07-24T02:48:13.224983",
     "validation_method": "multi-command"
   },
   {
@@ -337,7 +337,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185201",
+    "timestamp": "2025-07-24T02:48:13.224986",
     "validation_method": "multi-command"
   },
   {
@@ -348,7 +348,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185203",
+    "timestamp": "2025-07-24T02:48:13.224988",
     "validation_method": "multi-command"
   },
   {
@@ -359,7 +359,7 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185205",
+    "timestamp": "2025-07-24T02:48:13.224990",
     "validation_method": "multi-command"
   },
   {
@@ -370,7 +370,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185208",
+    "timestamp": "2025-07-24T02:48:13.224993",
     "validation_method": "multi-command"
   },
   {
@@ -381,7 +381,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185210",
+    "timestamp": "2025-07-24T02:48:13.224995",
     "validation_method": "multi-command"
   },
   {
@@ -392,7 +392,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185212",
+    "timestamp": "2025-07-24T02:48:13.224997",
     "validation_method": "multi-command"
   },
   {
@@ -403,7 +403,7 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185214",
+    "timestamp": "2025-07-24T02:48:13.224999",
     "validation_method": "multi-command"
   },
   {
@@ -414,7 +414,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185217",
+    "timestamp": "2025-07-24T02:48:13.225002",
     "validation_method": "multi-command"
   },
   {
@@ -425,7 +425,7 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185219",
+    "timestamp": "2025-07-24T02:48:13.225006",
     "validation_method": "multi-command"
   },
   {
@@ -436,7 +436,7 @@
     "cli_command": "4 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185221",
+    "timestamp": "2025-07-24T02:48:13.225009",
     "validation_method": "multi-command"
   },
   {
@@ -447,7 +447,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185224",
+    "timestamp": "2025-07-24T02:48:13.225011",
     "validation_method": "multi-command"
   },
   {
@@ -458,7 +458,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185226",
+    "timestamp": "2025-07-24T02:48:13.225013",
     "validation_method": "multi-command"
   },
   {
@@ -469,7 +469,7 @@
     "cli_command": "7 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185228",
+    "timestamp": "2025-07-24T02:48:13.225016",
     "validation_method": "multi-command"
   },
   {
@@ -480,7 +480,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185231",
+    "timestamp": "2025-07-24T02:48:13.225018",
     "validation_method": "multi-command"
   },
   {
@@ -491,7 +491,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185238",
+    "timestamp": "2025-07-24T02:48:13.225023",
     "validation_method": "multi-command"
   },
   {
@@ -502,7 +502,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185241",
+    "timestamp": "2025-07-24T02:48:13.225025",
     "validation_method": "multi-command"
   },
   {
@@ -513,7 +513,7 @@
     "cli_command": "10 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185243",
+    "timestamp": "2025-07-24T02:48:13.225027",
     "validation_method": "multi-command"
   },
   {
@@ -524,7 +524,7 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185245",
+    "timestamp": "2025-07-24T02:48:13.225029",
     "validation_method": "multi-command"
   },
   {
@@ -535,7 +535,7 @@
     "cli_command": "2 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185247",
+    "timestamp": "2025-07-24T02:48:13.225032",
     "validation_method": "multi-command"
   },
   {
@@ -546,7 +546,7 @@
     "cli_command": "1 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185250",
+    "timestamp": "2025-07-24T02:48:13.225034",
     "validation_method": "multi-command"
   },
   {
@@ -557,7 +557,7 @@
     "cli_command": "3 commands executed",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
-    "timestamp": "2025-07-24T01:36:36.185252",
+    "timestamp": "2025-07-24T02:48:13.225036",
     "validation_method": "multi-command"
   }
 ]
