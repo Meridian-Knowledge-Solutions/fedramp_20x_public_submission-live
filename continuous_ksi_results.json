@@ -7,12 +7,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.692099",
+=======
+    "timestamp": "2025-07-24T16:09:13.407191",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771371",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460631",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -23,28 +31,48 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.692175",
+=======
+    "timestamp": "2025-07-24T16:09:13.407270",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771382",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460643",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-CMT-01",
     "validation_id": "KSI-CMT-01",
     "assertion": true,
+<<<<<<< Updated upstream
     "assertion_reason": "\u2705 Enterprise-grade system modification logging and monitoring with automated response (90%): \u2705 System modification logging configured: 1 CloudTrail trails ready for activation; \u2705 Global service modification tracking: 1 trails monitoring global AWS services; \u2705 Multi-region modification coverage: 1 trails across all regions; \u2705 Tamper-resistant modification logs: 1 encrypted CloudTrail trails; \u2139\ufe0f AWS Config not configured (acceptable for low-impact pilot environments); \u2705 Comprehensive event logging: 12 log groups (6 application, 2 system, 4 AWS services); \u2705 Real-time modification detection: 3 EventBridge rules for change monitoring; \u2139\ufe0f No CloudWatch alarms for modification monitoring; \u2705 Modification notification infrastructure: 1 SNS topics for stakeholder alerts; \u2705 Automated modification response: 1 Lambda functions for change automation; \u2705 Instance-level modification tracking: 4 SSM-managed instances (4 online); \u2705 Enterprise-wide modification governance: AWS Organizations enables centralized change tracking; \u2705 Advanced organization features: SCPs for modification policy enforcement",
     "cli_command": "9 commands (8 successful): aws cloudtrail describe-trails --output json; aws config describe-configuration-recorders --output json (+7 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
     "timestamp": "2025-07-24T16:03:08.692404",
+=======
+    "assertion_reason": "\u2705 Enterprise-grade system modification logging and monitoring with automated response (90%): \u2705 System modification logging configured: 1 CloudTrail trails ready for activation; \u2705 Global service modification tracking: 1 trails monitoring global AWS services; \u2705 Multi-region modification coverage: 1 trails across all regions; \u2705 Tamper-resistant modification logs: 1 encrypted CloudTrail trails; \u2139\ufe0f AWS Config not configured (acceptable for low-impact pilot environments); \u2705 Comprehensive event logging: 13 log groups (7 application, 2 system, 4 AWS services); \u2705 Real-time modification detection: 3 EventBridge rules for change monitoring; \u2139\ufe0f No CloudWatch alarms for modification monitoring; \u2705 Modification notification infrastructure: 1 SNS topics for stakeholder alerts; \u2705 Automated modification response: 1 Lambda functions for change automation; \u2705 Instance-level modification tracking: 4 SSM-managed instances (4 online); \u2705 Enterprise-wide modification governance: AWS Organizations enables centralized change tracking; \u2705 Advanced organization features: SCPs for modification policy enforcement",
+    "cli_command": "9 commands (8 successful): aws cloudtrail describe-trails --output json; aws config describe-configuration-recorders --output json (+7 more)",
+    "cli_output_digest": "",
+    "cli_output_interpretation": "",
+    "timestamp": "2025-07-24T16:09:13.407498",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 9,
     "successful_commands": 8,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771385",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460646",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -55,12 +83,20 @@
     "cli_command": "10 commands (8 successful): aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE UPDATE_COMPLETE UPDATE_ROLLBACK_COMPLETE --output json; aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,LaunchTime,ImageId,InstanceType]' --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.692585",
+=======
+    "timestamp": "2025-07-24T16:09:13.407686",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 8,
     "failed_commands": 2,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771388",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460649",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -71,12 +107,20 @@
     "cli_command": "9 commands (8 successful): aws codebuild list-projects --output json; aws codepipeline list-pipelines --output json (+7 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.692733",
+=======
+    "timestamp": "2025-07-24T16:09:13.407837",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 9,
     "successful_commands": 8,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771390",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460651",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -87,12 +131,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.692802",
+=======
+    "timestamp": "2025-07-24T16:09:13.407907",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771393",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460654",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -103,12 +155,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.692861",
+=======
+    "timestamp": "2025-07-24T16:09:13.407967",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771395",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460656",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -119,28 +179,44 @@
     "cli_command": "8 commands (8 successful): aws ec2 describe-security-groups --output json; aws ec2 describe-network-acls --output json (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.693281",
+=======
+    "timestamp": "2025-07-24T16:09:13.408398",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 8,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771398",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460659",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-CNA-02",
     "validation_id": "KSI-CNA-02",
     "assertion": true,
-    "assertion_reason": "\u2705 Excellent attack surface minimization and lateral movement prevention (85%): \u2705 Strong attack surface minimization: 6/8 private subnets (75%); \u2705 Good AZ segmentation: 8 subnets across 2 availability zones; \u2705 Strong micro-segmentation: 11/12 custom security groups; \u2705 Lateral movement barriers: 9/12 security groups with specific rules; \u2705 Minimal compute exposure: 4/4 instances in private subnets; \u2705 Database isolation: All 1 RDS instances private; \u2705 Controlled service exposure: Single internet-facing load balancer with private backend services; \u2705 Lambda isolation: 1/4 functions in VPC; \u2705 Advanced segmentation barriers: 1/1 Network ACLs with custom isolation rules",
+    "assertion_reason": "\u2705 Excellent attack surface minimization and lateral movement prevention (85%): \u2705 Strong attack surface minimization: 6/8 private subnets (75%); \u2705 Good AZ segmentation: 8 subnets across 2 availability zones; \u2705 Strong micro-segmentation: 11/12 custom security groups; \u2705 Lateral movement barriers: 9/12 security groups with specific rules; \u2705 Minimal compute exposure: 4/4 instances in private subnets; \u2705 Database isolation: All 1 RDS instances private; \u2705 Controlled service exposure: Single internet-facing load balancer with private backend services; \u2705 Lambda isolation: 1/5 functions in VPC; \u2705 Advanced segmentation barriers: 1/1 Network ACLs with custom isolation rules",
     "cli_command": "11 commands (10 successful): aws ec2 describe-subnets --output json; aws ec2 describe-security-groups --output json (+9 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.694482",
+=======
+    "timestamp": "2025-07-24T16:09:13.409618",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 11,
     "successful_commands": 10,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771400",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460661",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -151,28 +227,44 @@
     "cli_command": "8 commands (8 successful): aws ec2 describe-vpcs --output json; aws ec2 describe-subnets --output json (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.694776",
+=======
+    "timestamp": "2025-07-24T16:09:13.409929",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 8,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771403",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460664",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-CNA-04",
     "validation_id": "KSI-CNA-04",
     "assertion": true,
-    "assertion_reason": "\u26a0\ufe0f Minimal immutable infrastructure (12%) - strengthen patterns: \u274c No compute instances found for IaC assessment; \u2705 Serverless functions: 4 Lambda functions (inherently immutable); \u2139\ufe0f No launch templates found; \u2139\ufe0f No Auto Scaling Groups found",
+    "assertion_reason": "\u26a0\ufe0f Minimal immutable infrastructure (12%) - strengthen patterns: \u274c No compute instances found for IaC assessment; \u2705 Serverless functions: 5 Lambda functions (inherently immutable); \u2139\ufe0f No launch templates found; \u2139\ufe0f No Auto Scaling Groups found",
     "cli_command": "7 commands (6 successful): aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE UPDATE_COMPLETE --output json; aws ec2 describe-launch-templates --output json (+5 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.696165",
+=======
+    "timestamp": "2025-07-24T16:09:13.411281",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 7,
     "successful_commands": 6,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771405",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460666",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -183,12 +275,20 @@
     "cli_command": "8 commands (7 successful): aws shield describe-subscription --output json; aws cloudfront list-distributions --output json (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.696364",
+=======
+    "timestamp": "2025-07-24T16:09:13.411475",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 7,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771407",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460673",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -199,28 +299,44 @@
     "cli_command": "9 commands (9 successful): aws ec2 describe-subnets --output json; aws ec2 describe-availability-zones --output json (+7 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.696850",
+=======
+    "timestamp": "2025-07-24T16:09:13.411968",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 9,
     "successful_commands": 9,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771409",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460676",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-CNA-07",
     "validation_id": "KSI-CNA-07",
     "assertion": true,
-    "assertion_reason": "\u2705 Good AWS best practices foundation (58%): \u2705 CloudTrail excellently configured: 'meridianks-Management-events' ready for activation (cost-optimized for pilot); \u2705 Multi-region audit coverage: CloudTrail spans all AWS regions; \u2705 Log integrity protection: CloudTrail log file validation enabled; \u2705 Encrypted audit logs: CloudTrail using KMS encryption; \u2705 Global service monitoring: CloudTrail capturing global AWS events; \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Enterprise governance: Organization-wide CloudTrail; \u2705 IAM best practices: 59 roles vs 2 users (service-oriented architecture); \u2705 Managed services foundation: 2 S3 buckets (consider adding compute layer); \u2705 Storage optimization: 2 S3 buckets (cost-effective storage); \u2705 Monitoring foundation ready: CloudWatch available (alarms optional for pilot environments); \u2705 Compliance service available: AWS Config ready for rule deployment (optional for pilot); \u2705 Enterprise governance: AWS Organizations with centralized management",
+    "assertion_reason": "\u2705 Good AWS best practices foundation (58%): \u2705 CloudTrail excellently configured: 'meridianks-Management-events' ready for activation (cost-optimized for pilot); \u2705 Multi-region audit coverage: CloudTrail spans all AWS regions; \u2705 Log integrity protection: CloudTrail log file validation enabled; \u2705 Encrypted audit logs: CloudTrail using KMS encryption; \u2705 Global service monitoring: CloudTrail capturing global AWS events; \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Enterprise governance: Organization-wide CloudTrail; \u2705 IAM best practices: 60 roles vs 2 users (service-oriented architecture); \u2705 Managed services foundation: 2 S3 buckets (consider adding compute layer); \u2705 Storage optimization: 2 S3 buckets (cost-effective storage); \u2705 Monitoring foundation ready: CloudWatch available (alarms optional for pilot environments); \u2705 Compliance service available: AWS Config ready for rule deployment (optional for pilot); \u2705 Enterprise governance: AWS Organizations with centralized management",
     "cli_command": "12 commands (11 successful): aws configservice describe-config-rules --output json; aws cloudtrail describe-trails --output json (+10 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.697065",
+=======
+    "timestamp": "2025-07-24T16:09:13.412170",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 12,
     "successful_commands": 11,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771416",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460678",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -231,12 +347,20 @@
     "cli_command": "4 commands (3 successful): aws iam list-users --output json; aws iam list-mfa-devices --output json (+2 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.697352",
+=======
+    "timestamp": "2025-07-24T16:09:13.412338",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 4,
     "successful_commands": 3,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771419",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460680",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -247,44 +371,68 @@
     "cli_command": "5 commands (4 successful): aws iam list-saml-providers --output json; aws iam list-virtual-mfa-devices --output json (+3 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.697750",
+=======
+    "timestamp": "2025-07-24T16:09:13.412459",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 5,
     "successful_commands": 4,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771421",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460683",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-IAM-03",
     "validation_id": "KSI-IAM-03",
     "assertion": true,
-    "assertion_reason": "\u26a0\ufe0f Mostly secure service authentication (room for improvement): \u2705 59 IAM roles available (28 service-oriented); \u2705 2 users found, none appear to be service accounts; \u2705 No access key information accessible; \u2139\ufe0f No EC2 instance profile information available",
+    "assertion_reason": "\u26a0\ufe0f Mostly secure service authentication (room for improvement): \u2705 60 IAM roles available (28 service-oriented); \u2705 2 users found, none appear to be service accounts; \u2705 No access key information accessible; \u2139\ufe0f No EC2 instance profile information available",
     "cli_command": "4 commands (3 successful): aws iam list-roles --output json; aws iam list-users --output json (+2 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.698166",
+=======
+    "timestamp": "2025-07-24T16:09:13.412839",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 4,
     "successful_commands": 3,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771423",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460685",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-IAM-04",
     "validation_id": "KSI-IAM-04",
     "assertion": true,
-    "assertion_reason": "\u2705 Excellent modern authorization model (95%): \u2705 IAM Identity Center configured: 1 active instance(s); \u2705 Permission sets deployed: 2 sets (modern role-based access); \u2705 Modern authorization model: Permission sets provide role-based, attribute-based, and just-in-time access; \u2705 Active permission sets: AdministratorAccess, ReadOnlyAccess; \u2705 Role-based access pattern: 36 user-oriented roles vs 2 users (23 service roles); \u2705 Controlled user count: 2 users (excellent for least privilege); \u2705 Controlled policy count: 4 custom policies (good least privilege); \u2705 Role-based session: Using temporary credentials (just-in-time access)",
+    "assertion_reason": "\u2705 Excellent modern authorization model (95%): \u2705 IAM Identity Center configured: 1 active instance(s); \u2705 Permission sets deployed: 2 sets (modern role-based access); \u2705 Modern authorization model: Permission sets provide role-based, attribute-based, and just-in-time access; \u2705 Active permission sets: AdministratorAccess, ReadOnlyAccess; \u2705 Role-based access pattern: 37 user-oriented roles vs 2 users (23 service roles); \u2705 Controlled user count: 2 users (excellent for least privilege); \u2705 Controlled policy count: 5 custom policies (good least privilege); \u2705 Role-based session: Using temporary credentials (just-in-time access)",
     "cli_command": "6 commands (6 successful): aws sso-admin list-instances --output json; INSTANCE_ARN=$(aws sso-admin list-instances --query 'Instances[0].InstanceArn' --output text 2>/dev/null) && aws sso-admin list-permission-sets --instance-arn \"$INSTANCE_ARN\" --output json 2>/dev/null || echo '{\"PermissionSets\":[]}' (+4 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.698590",
+=======
+    "timestamp": "2025-07-24T16:09:13.413301",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 6,
     "successful_commands": 6,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771426",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460688",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -295,12 +443,20 @@
     "cli_command": "8 commands (8 successful): aws sso-admin list-instances --output json; aws identitystore list-users --identity-store-id $(aws sso-admin list-instances --query 'Instances[0].IdentityStoreId' --output text) --output json 2>/dev/null || echo '{\"Users\":[]}' (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.699054",
+=======
+    "timestamp": "2025-07-24T16:09:13.413762",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 8,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771428",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460690",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -311,12 +467,20 @@
     "cli_command": "10 commands (10 successful): aws events list-rules --output json; aws guardduty list-detectors --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.699339",
+=======
+    "timestamp": "2025-07-24T16:09:13.414051",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 10,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771430",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460693",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -327,12 +491,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.699425",
+=======
+    "timestamp": "2025-07-24T16:09:13.414140",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771433",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460695",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -343,12 +515,20 @@
     "cli_command": "3 commands (3 successful): aws events list-rules --output json; aws logs describe-log-groups --log-group-name-prefix '/aws/events/' --output json; evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.699533",
+=======
+    "timestamp": "2025-07-24T16:09:13.414278",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 3,
     "successful_commands": 3,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771435",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460698",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -359,44 +539,72 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.699616",
+=======
+    "timestamp": "2025-07-24T16:09:13.414352",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771437",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460700",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-MLA-01",
     "validation_id": "KSI-MLA-01",
     "assertion": true,
+<<<<<<< Updated upstream
     "assertion_reason": "\u2705 Mature SIEM with solid log management and alerting (69%): \u2705 CloudTrail foundation: 1 trails (0 active, 1 tamper-resistant); \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Centralized log collection: 12 log groups (9 AWS services, 3 applications); \u26a0\ufe0f Partial retention management: 9/12 log groups with retention policies; \u2705 Compliance-grade retention: 4 log groups with long-term retention (365+ days); \u2705 Cryptographic infrastructure: 13 KMS keys available for log protection; \u2139\ufe0f No CloudWatch alarms found for automated log analysis; \u2705 Advanced threat detection: 20 Security Hub findings (20 active); \u2139\ufe0f No Config delivery channels found for compliance log delivery; \u2705 Enterprise-wide logging: AWS Organizations enables centralized multi-account SIEM; \u2705 Multi-region audit coverage: 1 trails across all regions; \u2705 Global service monitoring: 1 trails capturing global AWS events; \u2705 Enterprise-wide CloudTrail: Organization-wide audit coverage",
     "cli_command": "8 commands (7 successful): aws cloudtrail describe-trails --output json; aws logs describe-log-groups --output json (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
     "timestamp": "2025-07-24T16:03:08.700352",
+=======
+    "assertion_reason": "\u2705 Mature SIEM with solid log management and alerting (69%): \u2705 CloudTrail foundation: 1 trails (0 active, 1 tamper-resistant); \u2705 Real-time log analysis: CloudTrail integrated with CloudWatch Logs; \u2705 Centralized log collection: 13 log groups (10 AWS services, 3 applications); \u26a0\ufe0f Partial retention management: 9/13 log groups with retention policies; \u2705 Compliance-grade retention: 4 log groups with long-term retention (365+ days); \u2705 Cryptographic infrastructure: 13 KMS keys available for log protection; \u2139\ufe0f No CloudWatch alarms found for automated log analysis; \u2705 Advanced threat detection: 20 Security Hub findings (20 active); \u2139\ufe0f No Config delivery channels found for compliance log delivery; \u2705 Enterprise-wide logging: AWS Organizations enables centralized multi-account SIEM; \u2705 Multi-region audit coverage: 1 trails across all regions; \u2705 Global service monitoring: 1 trails capturing global AWS events; \u2705 Enterprise-wide CloudTrail: Organization-wide audit coverage",
+    "cli_command": "8 commands (7 successful): aws cloudtrail describe-trails --output json; aws logs describe-log-groups --output json (+6 more)",
+    "cli_output_digest": "",
+    "cli_output_interpretation": "",
+    "timestamp": "2025-07-24T16:09:13.415072",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 7,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771440",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460702",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-MLA-02",
     "validation_id": "KSI-MLA-02",
     "assertion": true,
-    "assertion_reason": "\u2705 Production-ready log review with good automation (50%): \u2705 Log review notifications: 1 SNS topics for alert delivery; \u2705 Manual review capability: 12 log groups available for analysis; \u2705 Advanced log correlation: 1 Security Hub insights for intelligent analysis; \u2705 Audit event analysis: 10 recent CloudTrail events available for review; \u26a0\ufe0f Partial retention management: 9/12 log groups with retention policies; \u2705 Long-term audit capability: 4 log groups with compliance-grade retention (365+ days); \u2705 Enterprise log aggregation: AWS Organizations enables centralized multi-account log review",
+    "assertion_reason": "\u2705 Production-ready log review with good automation (50%): \u2705 Log review notifications: 1 SNS topics for alert delivery; \u2705 Manual review capability: 13 log groups available for analysis; \u2705 Advanced log correlation: 1 Security Hub insights for intelligent analysis; \u2705 Audit event analysis: 10 recent CloudTrail events available for review; \u26a0\ufe0f Partial retention management: 9/13 log groups with retention policies; \u2705 Long-term audit capability: 4 log groups with compliance-grade retention (365+ days); \u2705 Enterprise log aggregation: AWS Organizations enables centralized multi-account log review",
     "cli_command": "9 commands (8 successful): aws cloudwatch describe-alarms --output json; aws logs describe-metric-filters --output json (+7 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.700657",
+=======
+    "timestamp": "2025-07-24T16:09:13.415425",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 9,
     "successful_commands": 8,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771442",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460704",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -407,28 +615,48 @@
     "cli_command": "8 commands (7 successful): aws securityhub get-enabled-standards --region us-east-1 --output json; aws inspector2 get-configuration --output json (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.702504",
+=======
+    "timestamp": "2025-07-24T16:09:13.417258",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 7,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771444",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460709",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
     "ksi_id": "KSI-MLA-04",
     "validation_id": "KSI-MLA-04",
     "assertion": true,
+<<<<<<< Updated upstream
     "assertion_reason": "\u2705 Enterprise-grade authenticated vulnerability scanning with comprehensive coverage (117%): \u2705 Inspector service operational: Responds to coverage queries and scanning requests; \u2705 Comprehensive scanning coverage: 4/4 instances under authenticated scanning; \u2705 Multi-service authenticated scanning: Inspector EC2, ECR scanning enabled; \u2705 Comprehensive service scanning: Both EC2 and ECR authenticated vulnerability assessment enabled; \u2705 System-level scanning capability: 4/4 SSM-managed instances for authenticated system assessment; \u2705 Serverless code analysis: 5 Lambda functions available for authenticated code vulnerability scanning; \u2705 Active Lambda scanning: 4 functions actively scanned by Inspector; \u2705 Comprehensive workload coverage: 3 service types available for authenticated scanning (EC2, Lambda, SSM); \u2705 Active vulnerability intelligence: 20 authenticated scan findings (1 critical, 12 high, 5 medium, 2 low); \u2705 Comprehensive vulnerability discovery: High-volume scanning indicates thorough authenticated assessment; \u2705 Automated discovery: Inspector service can automatically detect and scan new resources; \u2705 Enterprise scanning governance: AWS Organizations enables centralized multi-account vulnerability scanning; \u2705 Enterprise scanning integration: Multi-service Inspector configuration for comprehensive authenticated assessment",
     "cli_command": "8 commands (8 successful): aws inspector2 list-coverage --output json; aws inspector2 get-configuration --output json (+6 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
     "timestamp": "2025-07-24T16:03:08.703809",
+=======
+    "assertion_reason": "\u2705 Enterprise-grade authenticated vulnerability scanning with comprehensive coverage (117%): \u2705 Inspector service operational: Responds to coverage queries and scanning requests; \u2705 Comprehensive scanning coverage: 4/4 instances under authenticated scanning; \u2705 Multi-service authenticated scanning: Inspector EC2, ECR scanning enabled; \u2705 Comprehensive service scanning: Both EC2 and ECR authenticated vulnerability assessment enabled; \u2705 System-level scanning capability: 4/4 SSM-managed instances for authenticated system assessment; \u2705 Serverless code analysis: 5 Lambda functions available for authenticated code vulnerability scanning; \u2705 Active Lambda scanning: 5 functions actively scanned by Inspector; \u2705 Comprehensive workload coverage: 3 service types available for authenticated scanning (EC2, Lambda, SSM); \u2705 Active vulnerability intelligence: 20 authenticated scan findings (1 critical, 12 high, 5 medium, 2 low); \u2705 Comprehensive vulnerability discovery: High-volume scanning indicates thorough authenticated assessment; \u2705 Automated discovery: Inspector service can automatically detect and scan new resources; \u2705 Enterprise scanning governance: AWS Organizations enables centralized multi-account vulnerability scanning; \u2705 Enterprise scanning integration: Multi-service Inspector configuration for comprehensive authenticated assessment",
+    "cli_command": "8 commands (8 successful): aws inspector2 list-coverage --output json; aws inspector2 get-configuration --output json (+6 more)",
+    "cli_output_digest": "",
+    "cli_output_interpretation": "",
+    "timestamp": "2025-07-24T16:09:13.418680",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 8,
     "successful_commands": 8,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771447",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460712",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -439,12 +667,20 @@
     "cli_command": "10 commands (9 successful): aws config describe-config-rules --output json; aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE UPDATE_COMPLETE --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.704206",
+=======
+    "timestamp": "2025-07-24T16:09:13.419080",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 9,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771449",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460714",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -455,12 +691,20 @@
     "cli_command": "10 commands (8 successful): aws securityhub get-findings --max-results 100 --output json; aws inspector2 list-findings --max-results 50 --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.710098",
+=======
+    "timestamp": "2025-07-24T16:09:13.424831",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 8,
     "failed_commands": 2,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771451",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460716",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -471,12 +715,20 @@
     "cli_command": "5 commands (4 successful): aws configservice describe-configuration-recorders --output json; aws ssm describe-instance-information --output json (+3 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711279",
+=======
+    "timestamp": "2025-07-24T16:09:13.426044",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 5,
     "successful_commands": 4,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771454",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460719",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -487,12 +739,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711435",
+=======
+    "timestamp": "2025-07-24T16:09:13.426231",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771456",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460721",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -503,12 +763,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711511",
+=======
+    "timestamp": "2025-07-24T16:09:13.426317",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771458",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460724",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -519,12 +787,20 @@
     "cli_command": "4 commands (4 successful): aws codebuild list-projects --output json; aws codepipeline list-pipelines --output json (+2 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711597",
+=======
+    "timestamp": "2025-07-24T16:09:13.426409",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 4,
     "successful_commands": 4,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771463",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460726",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -535,12 +811,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711669",
+=======
+    "timestamp": "2025-07-24T16:09:13.426482",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771466",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460729",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -551,12 +835,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711738",
+=======
+    "timestamp": "2025-07-24T16:09:13.426558",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771468",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460731",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -567,12 +859,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711802",
+=======
+    "timestamp": "2025-07-24T16:09:13.426626",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771470",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460733",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -583,12 +883,20 @@
     "cli_command": "3 commands (3 successful): aws rds describe-db-instances --query 'DBInstances[*].[DBInstanceIdentifier,BackupRetentionPeriod,PreferredBackupWindow]' --output json; aws backup list-backup-plans --output json; evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711883",
+=======
+    "timestamp": "2025-07-24T16:09:13.426709",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 3,
     "successful_commands": 3,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771473",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460736",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -599,12 +907,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.711950",
+=======
+    "timestamp": "2025-07-24T16:09:13.426774",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771475",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460738",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -615,12 +931,20 @@
     "cli_command": "4 commands (4 successful): aws backup list-backup-plans --output json; aws backup list-backup-jobs --by-state COMPLETED --max-results 50 --output json (+2 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.712950",
+=======
+    "timestamp": "2025-07-24T16:09:13.427777",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 4,
     "successful_commands": 4,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771477",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460743",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -631,12 +955,20 @@
     "cli_command": "4 commands (4 successful): aws backup list-restore-jobs --max-results 20 --output json; aws backup list-backup-jobs --by-state COMPLETED --by-created-after 2024-05-01 --output json (+2 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.713872",
+=======
+    "timestamp": "2025-07-24T16:09:13.428711",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 4,
     "successful_commands": 4,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771479",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460746",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -647,12 +979,20 @@
     "cli_command": "10 commands (10 successful): aws ec2 describe-security-groups --output json; aws ec2 describe-instances --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.714521",
+=======
+    "timestamp": "2025-07-24T16:09:13.429367",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 10,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771482",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460748",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -663,12 +1003,20 @@
     "cli_command": "10 commands (9 successful): aws acm list-certificates --output json; aws ec2 describe-vpc-endpoints --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.714853",
+=======
+    "timestamp": "2025-07-24T16:09:13.429701",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 9,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771484",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460751",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -679,12 +1027,20 @@
     "cli_command": "7 commands (6 successful): aws s3api list-buckets --output json; aws ec2 describe-volumes --output json (+5 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.715108",
+=======
+    "timestamp": "2025-07-24T16:09:13.429937",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 7,
     "successful_commands": 6,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771487",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460754",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -695,12 +1051,20 @@
     "cli_command": "10 commands (8 successful): aws ssm describe-parameters --output json; aws config describe-configuration-recorders --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.715679",
+=======
+    "timestamp": "2025-07-24T16:09:13.430525",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 8,
     "failed_commands": 2,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771489",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460756",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -711,12 +1075,20 @@
     "cli_command": "10 commands (9 successful): aws cloudtrail describe-trails --output json; REDACTED_FOR_SECURITY (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.716135",
+=======
+    "timestamp": "2025-07-24T16:09:13.430833",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 9,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771493",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460758",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -727,12 +1099,20 @@
     "cli_command": "10 commands (9 successful): REDACTED_FOR_SECURITY; aws acm list-certificates --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.716408",
+=======
+    "timestamp": "2025-07-24T16:09:13.431094",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 9,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771496",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460764",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -743,12 +1123,20 @@
     "cli_command": "10 commands (9 successful): aws ssm describe-patch-baselines --output json; aws ssm describe-instance-information --output json (+8 more)",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.716936",
+=======
+    "timestamp": "2025-07-24T16:09:13.431640",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 10,
     "successful_commands": 9,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771498",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460766",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -759,12 +1147,20 @@
     "cli_command": "3 commands (2 successful): aws marketplace-entitlement list-entitlements --output json; aws servicecatalog list-portfolios --output json; evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.717084",
+=======
+    "timestamp": "2025-07-24T16:09:13.431776",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 3,
     "successful_commands": 2,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771500",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460769",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -775,12 +1171,20 @@
     "cli_command": "2 commands (1 successful): aws organizations list-accounts --output json; evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.717174",
+=======
+    "timestamp": "2025-07-24T16:09:13.431865",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 2,
     "successful_commands": 1,
     "failed_commands": 1,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771503",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460772",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -791,12 +1195,20 @@
     "cli_command": "1 commands (1 successful): evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.717241",
+=======
+    "timestamp": "2025-07-24T16:09:13.431935",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 1,
     "successful_commands": 1,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771505",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460774",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   },
   {
@@ -807,12 +1219,20 @@
     "cli_command": "3 commands (3 successful): aws inspector2 get-configuration --output json; aws securityhub describe-hub --output json; evidence_check",
     "cli_output_digest": "",
     "cli_output_interpretation": "",
+<<<<<<< Updated upstream
     "timestamp": "2025-07-24T16:03:08.717321",
+=======
+    "timestamp": "2025-07-24T16:09:13.432016",
+>>>>>>> Stashed changes
     "validation_method": "validation-engine-sync",
     "commands_executed": 3,
     "successful_commands": 3,
     "failed_commands": 0,
+<<<<<<< Updated upstream
     "original_timestamp": "2025-07-24T16:03:06.771507",
+=======
+    "original_timestamp": "2025-07-24T16:09:11.460776",
+>>>>>>> Stashed changes
     "synced_from_validation_engine": true
   }
 ]
