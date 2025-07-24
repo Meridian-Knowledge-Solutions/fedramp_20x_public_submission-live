@@ -8,7 +8,7 @@ It demonstrates **automated validation**, **machine-readable evidence**, **enhan
 
 ## 🔗 Live Trust Center Dashboard
 
-**🌐 [FedRAMP 20x Trust Center](https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission_live/)**
+**🌐 [FedRAMP 20x Trust Center](https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission-live/)**
 
 ### 🚀 Three-Tier POA&M System
 We implemented a proactive enhancement tracking beyond traditional compliance gaps:
