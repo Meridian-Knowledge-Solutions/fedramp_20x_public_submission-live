@@ -4,11 +4,7 @@
 
 **Category:** Cloud Native Architecture
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-07-23 23:58
-=======
-**Last Check:** 2025-07-24 00:01
->>>>>>> Stashed changes
+**Last Check:** 2025-07-24 01:36
 
 **What it validates:** Have denial of service protection
 
@@ -48,8 +44,4 @@ PASS Comprehensive DoS protection established (94%): PASS Network-layer protecti
 - PASS Internal DNS resilience: 1 private Route 53 hosted zone(s)
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-07-23 23:58 UTC*
-=======
-*Generated 2025-07-24 00:01 UTC*
->>>>>>> Stashed changes
+*Generated 2025-07-24 01:36 UTC*

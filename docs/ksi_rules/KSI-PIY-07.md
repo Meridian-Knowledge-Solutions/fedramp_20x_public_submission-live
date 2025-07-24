@@ -4,11 +4,7 @@
 
 **Category:** Policy and Inventory
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-07-23 23:58
-=======
-**Last Check:** 2025-07-24 00:01
->>>>>>> Stashed changes
+**Last Check:** 2025-07-24 01:36
 
 **What it validates:** Document risk management decisions for software supply chain security
 
@@ -24,8 +20,4 @@ WARNING Basic supply chain risk management (expand coverage): PASS Enhanced supp
 - PASS Supply chain risk documentation: Software Supply Chain Risk Management Framework (KSI-PIY-07).pdf
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-07-23 23:58 UTC*
-=======
-*Generated 2025-07-24 00:01 UTC*
->>>>>>> Stashed changes
+*Generated 2025-07-24 01:36 UTC*
