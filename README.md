@@ -313,8 +313,6 @@ This repository supports GSA's FedRAMP 20x pilot goals of:
 
 **Questions?** [Open a GitHub Issue](https://github.com/Meridian-Knowledge-Solutions/fedramp_20x_public_submission_live/issues) or email [security@meridianks.com](mailto:security@meridianks.com)
 
-**SCN Issues?** Check our [SCN Automation Issues](https://github.com/Meridian-Knowledge-Solutions/fedramp_20x_public_submission_live/tree/main/scn_automation/scn_issues) for transparency
-
 ---
 
 ## 📄 Compliance Standards
