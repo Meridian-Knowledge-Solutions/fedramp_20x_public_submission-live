@@ -4,11 +4,7 @@
 
 **Category:** Identity and Access Management
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-07-30 06:08
-=======
-**Last Check:** 2025-07-30 06:10
->>>>>>> Stashed changes
+**Last Check:** 2025-07-30 07:13
 
 **What it validates:** Enforce appropriately secure authentication methods for non-user accounts and services
 
@@ -36,8 +32,4 @@ WARNING Mostly secure service authentication (room for improvement): PASS 60 IAM
 - INFO No EC2 instance profile information available
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-07-30 06:08 UTC*
-=======
-*Generated 2025-07-30 06:10 UTC*
->>>>>>> Stashed changes
+*Generated 2025-07-30 07:13 UTC*
