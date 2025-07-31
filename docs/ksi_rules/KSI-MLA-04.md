@@ -4,7 +4,7 @@
 
 **Category:** Monitoring, Logging, and Auditing
 **Status:** PASS
-**Last Check:** 2025-07-30 07:13
+**Last Check:** 2025-07-31 02:51
 
 **What it validates:** Perform authenticated vulnerability scanning on information resources
 
@@ -38,19 +38,20 @@
 
 ## Latest Results
 
-PASS Enterprise-grade authenticated vulnerability scanning with comprehensive coverage (117%): PASS Inspector service operational: Responds to coverage queries and scanning requests
+PASS Enterprise-grade authenticated vulnerability scanning with comprehensive coverage (122%): PASS Inspector service operational: Responds to coverage queries and scanning requests
 - PASS Comprehensive scanning coverage: 4/4 instances under authenticated scanning
 - PASS Multi-service authenticated scanning: Inspector EC2, ECR scanning enabled
 - PASS Comprehensive service scanning: Both EC2 and ECR authenticated vulnerability assessment enabled
 - PASS System-level scanning capability: 4/4 SSM-managed instances for authenticated system assessment
-- PASS Serverless code analysis: 5 Lambda functions available for authenticated code vulnerability scanning
-- PASS Active Lambda scanning: 5 functions actively scanned by Inspector
+- PASS Serverless code analysis: 7 Lambda functions available for authenticated code vulnerability scanning
+- PASS Active Lambda scanning: 7 functions actively scanned by Inspector
 - PASS Comprehensive workload coverage: 3 service types available for authenticated scanning (EC2, Lambda, SSM)
-- PASS Active vulnerability intelligence: 20 authenticated scan findings (0 critical, 13 high, 7 medium, 0 low)
+- PASS Active vulnerability intelligence: 20 authenticated scan findings (0 critical, 14 high, 4 medium, 2 low)
 - PASS Comprehensive vulnerability discovery: High-volume scanning indicates thorough authenticated assessment
 - PASS Automated discovery: Inspector service can automatically detect and scan new resources
 - PASS Enterprise scanning governance: AWS Organizations enables centralized multi-account vulnerability scanning
 - PASS Enterprise scanning integration: Multi-service Inspector configuration for comprehensive authenticated assessment
+- PASS Enterprise-scale scanning: 11 total resources requiring authenticated vulnerability assessment
 
 ---
-*Generated 2025-07-30 07:13 UTC*
+*Generated 2025-07-31 02:51 UTC*
