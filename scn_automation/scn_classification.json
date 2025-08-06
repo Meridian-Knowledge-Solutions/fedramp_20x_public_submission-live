@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-05T11:21:41.648651",
+  "timestamp": "2025-08-06T02:53:38.606856",
   "scn_type": "routine_recurring",
   "emergency_mode": false,
   "requires_notification": false,
@@ -7,10 +7,15 @@
   "3pao_name": "Fortreum, LLC",
   "related_poam": null,
   "scn_type_explanation": "Regular operational maintenance per FRD-SCN-02",
-  "short_description": "Change involving 57 files",
+  "short_description": "Change involving 62 files",
   "reason_for_change": "Operational improvement and compliance maintenance",
   "changed_files": [
-    ".github/workflows/fedramp-cvm-pipeline.yaml",
+    "dashboard-data/assessed_vulnerabilities.json",
+    "dashboard-data/cisa_kev_operational_intelligence.json",
+    "dashboard-data/dashboard_metadata.json",
+    "dashboard-data/evaluated_vulnerabilities.json",
+    "dashboard-data/parsed_vulnerabilities.json",
+    "dashboard-data/poam_generation_results.json",
     "docs/ksi_rules/KSI-CED-01.md",
     "docs/ksi_rules/KSI-CED-02.md",
     "docs/ksi_rules/KSI-CMT-01.md",
@@ -70,760 +75,825 @@
   ],
   "changed_files_detailed": [
     {
-      "file": ".github/workflows/fedramp-cvm-pipeline.yaml",
+      "file": "dashboard-data/assessed_vulnerabilities.json",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "dashboard-data/cisa_kev_operational_intelligence.json",
+      "commit": {
+        "sha": "237d2d4f",
+        "full_sha_available": true,
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "dashboard-data/dashboard_metadata.json",
+      "commit": {
+        "sha": "237d2d4f",
+        "full_sha_available": true,
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "dashboard-data/evaluated_vulnerabilities.json",
+      "commit": {
+        "sha": "237d2d4f",
+        "full_sha_available": true,
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "dashboard-data/parsed_vulnerabilities.json",
+      "commit": {
+        "sha": "237d2d4f",
+        "full_sha_available": true,
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
+      "file": "dashboard-data/poam_generation_results.json",
+      "commit": {
+        "sha": "237d2d4f",
+        "full_sha_available": true,
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CED-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CED-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-05.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-05.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-06.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-07.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-05.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-06.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-05.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-06.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-05.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-06.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-07.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-05.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-06.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-07.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-01.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-02.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-03.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-04.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/README.md",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/continuous_ksi_results.json",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/evidence_commit_metadata.json",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/validation_engine_results.json",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "unified_ksi_validations.json",
       "commit": {
-        "sha": "f157f466",
+        "sha": "237d2d4f",
         "full_sha_available": true,
-        "message": "Update fedramp-cvm-pipeline.yaml",
-        "author": "Kwahf33",
-        "date": "2025-08-05 05:16:44 -0600",
+        "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+        "author": "FedRAMP CVM Dashboard Bot",
+        "date": "2025-08-06 01:10:11 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@f157f466",
+        "commit_reference": "fedramp-20x-submission-final@237d2d4f",
         "verification_method": "git_log_local"
       }
     }
   ],
   "local_commits": [
     {
-      "sha": "f157f466",
+      "sha": "237d2d4f",
       "full_sha_available": true,
-      "message": "Update fedramp-cvm-pipeline.yaml",
-      "author": "Kwahf33",
-      "date": "2025-08-05 05:16:44 -0600",
+      "message": "\ud83d\udcca Manual CVM Dashboard Update (2025-08-06 01:10:11 UTC)",
+      "author": "FedRAMP CVM Dashboard Bot",
+      "date": "2025-08-06 01:10:11 +0000",
       "repository": "fedramp-20x-submission-final",
-      "commit_reference": "fedramp-20x-submission-final@f157f466",
+      "commit_reference": "fedramp-20x-submission-final@237d2d4f",
       "verification_method": "git_log_local"
     }
   ],
-  "file_count": 57,
+  "file_count": 62,
   "audit_trail": {
     "local_changes_tracked": true,
     "commit_verification_available": true,
@@ -854,7 +924,7 @@
   "approver": {
     "name": "Meridian Security Team",
     "title": "Chief Security Officer",
-    "approval_date": "2025-08-05T11:21:41.648651"
+    "approval_date": "2025-08-06T02:53:38.606856"
   },
   "fedramp_20x_compliance": {
     "decision_tree_followed": "FRA-SCN-03",
