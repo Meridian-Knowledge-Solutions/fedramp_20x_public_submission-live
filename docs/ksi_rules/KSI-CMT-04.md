@@ -4,7 +4,7 @@
 
 **Category:** Change Management
 **Status:** PASS
-**Last Check:** 2025-08-08 09:16
+**Last Check:** 2025-08-09 02:43
 
 **What it validates:** Have a documented change management procedure
 
@@ -16,7 +16,7 @@
 
 ## Latest Results
 
-- PASS Documented change management procedure - expand process controls (10%): PASS Change management documentation found: configuration_management_policy_and_procedures.pdf, weekly_change_management_meeting_final.png
+- PASS Documented change management procedure - expand process controls (10%): PASS Change management documentation found: weekly_change_management_meeting_final.png, configuration_management_policy_and_procedures.pdf
 
 ---
-*Generated 2025-08-08 09:16 UTC*
+*Generated 2025-08-09 02:43 UTC*

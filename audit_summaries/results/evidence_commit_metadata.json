@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-08T09:16:29Z",
+    "generated_at": "2025-08-09T02:43:22Z",
     "generator_version": "enhanced-v2",
     "total_evidence_files": 51,
     "evidence_directories": [
@@ -64,16 +64,255 @@
     }
   },
   "evidence_files": {
+    "evidence_v2/KSI-SVC-04/cli_output.json": {
+      "ksi_id": "KSI-SVC-04",
+      "evidence_directory": "KSI-SVC-04",
+      "file_path": "evidence_v2/KSI-SVC-04/cli_output.json",
+      "file_size": 77442,
+      "file_modified": "2025-08-09T02:43:19Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 8,
+      "failed_commands": 2,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CNA-06/cli_output.json": {
+      "ksi_id": "KSI-CNA-06",
+      "evidence_directory": "KSI-CNA-06",
+      "file_path": "evidence_v2/KSI-CNA-06/cli_output.json",
+      "file_size": 190718,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 9,
+      "successful_commands": 9,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-IAM-05/cli_output.json": {
+      "ksi_id": "KSI-IAM-05",
+      "evidence_directory": "KSI-IAM-05",
+      "file_path": "evidence_v2/KSI-IAM-05/cli_output.json",
+      "file_size": 54474,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 8,
+      "successful_commands": 8,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-SVC-03/cli_output.json": {
+      "ksi_id": "KSI-SVC-03",
+      "evidence_directory": "KSI-SVC-03",
+      "file_path": "evidence_v2/KSI-SVC-03/cli_output.json",
+      "file_size": 19561,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 7,
+      "successful_commands": 6,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-TPR-02/cli_output.json": {
+      "ksi_id": "KSI-TPR-02",
+      "evidence_directory": "KSI-TPR-02",
+      "file_path": "evidence_v2/KSI-TPR-02/cli_output.json",
+      "file_size": 1583,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 2,
+      "successful_commands": 1,
+      "failed_commands": 1,
+      "command_types": [
+        "manual",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CED-01/cli_output.json": {
+      "ksi_id": "KSI-CED-01",
+      "evidence_directory": "KSI-CED-01",
+      "file_path": "evidence_v2/KSI-CED-01/cli_output.json",
+      "file_size": 675,
+      "file_modified": "2025-08-09T02:43:02Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-MLA-06/cli_output.json": {
+      "ksi_id": "KSI-MLA-06",
+      "evidence_directory": "KSI-MLA-06",
+      "file_path": "evidence_v2/KSI-MLA-06/cli_output.json",
+      "file_size": 664241,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 8,
+      "failed_commands": 2,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-PIY-02/cli_output.json": {
+      "ksi_id": "KSI-PIY-02",
+      "evidence_directory": "KSI-PIY-02",
+      "file_path": "evidence_v2/KSI-PIY-02/cli_output.json",
+      "file_size": 704,
+      "file_modified": "2025-08-09T02:42:55Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-IAM-04/cli_output.json": {
+      "ksi_id": "KSI-IAM-04",
+      "evidence_directory": "KSI-IAM-04",
+      "file_path": "evidence_v2/KSI-IAM-04/cli_output.json",
+      "file_size": 56009,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 6,
+      "successful_commands": 6,
+      "failed_commands": 0,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-PIY-03/cli_output.json": {
+      "ksi_id": "KSI-PIY-03",
+      "evidence_directory": "KSI-PIY-03",
+      "file_path": "evidence_v2/KSI-PIY-03/cli_output.json",
+      "file_size": 668,
+      "file_modified": "2025-08-09T02:42:55Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-MLA-05/cli_output.json": {
+      "ksi_id": "KSI-MLA-05",
+      "evidence_directory": "KSI-MLA-05",
+      "file_path": "evidence_v2/KSI-MLA-05/cli_output.json",
+      "file_size": 49655,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 9,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CMT-02/cli_output.json": {
+      "ksi_id": "KSI-CMT-02",
+      "evidence_directory": "KSI-CMT-02",
+      "file_path": "evidence_v2/KSI-CMT-02/cli_output.json",
+      "file_size": 24756,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 8,
+      "failed_commands": 2,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-MLA-03/cli_output.json": {
+      "ksi_id": "KSI-MLA-03",
+      "evidence_directory": "KSI-MLA-03",
+      "file_path": "evidence_v2/KSI-MLA-03/cli_output.json",
+      "file_size": 112319,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 8,
+      "successful_commands": 7,
+      "failed_commands": 1,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
     "evidence_v2/KSI-CNA-07/cli_output.json": {
       "ksi_id": "KSI-CNA-07",
       "evidence_directory": "KSI-CNA-07",
       "file_path": "evidence_v2/KSI-CNA-07/cli_output.json",
-      "file_size": 17375,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "file_size": 17346,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 12,
       "successful_commands": 11,
       "failed_commands": 1,
@@ -82,16 +321,35 @@
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-PIY-07/cli_output.json": {
-      "ksi_id": "KSI-PIY-07",
-      "evidence_directory": "KSI-PIY-07",
-      "file_path": "evidence_v2/KSI-PIY-07/cli_output.json",
-      "file_size": 677,
-      "file_modified": "2025-08-08T09:16:10Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-TPR-04/cli_output.json": {
+      "ksi_id": "KSI-TPR-04",
+      "evidence_directory": "KSI-TPR-04",
+      "file_path": "evidence_v2/KSI-TPR-04/cli_output.json",
+      "file_size": 2855,
+      "file_modified": "2025-08-09T02:43:02Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 3,
+      "successful_commands": 3,
+      "failed_commands": 0,
+      "command_types": [
+        "manual",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-TPR-03/cli_output.json": {
+      "ksi_id": "KSI-TPR-03",
+      "evidence_directory": "KSI-TPR-03",
+      "file_path": "evidence_v2/KSI-TPR-03/cli_output.json",
+      "file_size": 662,
+      "file_modified": "2025-08-09T02:43:00Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 1,
       "successful_commands": 1,
       "failed_commands": 0,
@@ -100,16 +358,53 @@
       ],
       "validation_format": "single-command"
     },
-    "evidence_v2/KSI-PIY-03/cli_output.json": {
-      "ksi_id": "KSI-PIY-03",
-      "evidence_directory": "KSI-PIY-03",
-      "file_path": "evidence_v2/KSI-PIY-03/cli_output.json",
-      "file_size": 668,
-      "file_modified": "2025-08-08T09:16:08Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-RPL-03/cli_output.json": {
+      "ksi_id": "KSI-RPL-03",
+      "evidence_directory": "KSI-RPL-03",
+      "file_path": "evidence_v2/KSI-RPL-03/cli_output.json",
+      "file_size": 235354,
+      "file_modified": "2025-08-09T02:43:20Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 4,
+      "successful_commands": 4,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CNA-04/cli_output.json": {
+      "ksi_id": "KSI-CNA-04",
+      "evidence_directory": "KSI-CNA-04",
+      "file_path": "evidence_v2/KSI-CNA-04/cli_output.json",
+      "file_size": 517785,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 7,
+      "successful_commands": 6,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-PIY-06/cli_output.json": {
+      "ksi_id": "KSI-PIY-06",
+      "evidence_directory": "KSI-PIY-06",
+      "file_path": "evidence_v2/KSI-PIY-06/cli_output.json",
+      "file_size": 674,
+      "file_modified": "2025-08-09T02:42:58Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 1,
       "successful_commands": 1,
       "failed_commands": 0,
@@ -117,17 +412,348 @@
         "manual"
       ],
       "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-PIY-07/cli_output.json": {
+      "ksi_id": "KSI-PIY-07",
+      "evidence_directory": "KSI-PIY-07",
+      "file_path": "evidence_v2/KSI-PIY-07/cli_output.json",
+      "file_size": 677,
+      "file_modified": "2025-08-09T02:42:58Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-CNA-03/cli_output.json": {
+      "ksi_id": "KSI-CNA-03",
+      "evidence_directory": "KSI-CNA-03",
+      "file_path": "evidence_v2/KSI-CNA-03/cli_output.json",
+      "file_size": 37392,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 8,
+      "successful_commands": 8,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-TPR-01/cli_output.json": {
+      "ksi_id": "KSI-TPR-01",
+      "evidence_directory": "KSI-TPR-01",
+      "file_path": "evidence_v2/KSI-TPR-01/cli_output.json",
+      "file_size": 2282,
+      "file_modified": "2025-08-09T02:42:59Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 3,
+      "successful_commands": 2,
+      "failed_commands": 1,
+      "command_types": [
+        "manual",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-IAM-02/cli_output.json": {
+      "ksi_id": "KSI-IAM-02",
+      "evidence_directory": "KSI-IAM-02",
+      "file_path": "evidence_v2/KSI-IAM-02/cli_output.json",
+      "file_size": 3680,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 5,
+      "successful_commands": 4,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-SVC-06/cli_output.json": {
+      "ksi_id": "KSI-SVC-06",
+      "evidence_directory": "KSI-SVC-06",
+      "file_path": "evidence_v2/KSI-SVC-06/cli_output.json",
+      "file_size": 28546,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 9,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-SVC-05/cli_output.json": {
+      "ksi_id": "KSI-SVC-05",
+      "evidence_directory": "KSI-SVC-05",
+      "file_path": "evidence_v2/KSI-SVC-05/cli_output.json",
+      "file_size": 21895,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 9,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-INR-03/cli_output.json": {
+      "ksi_id": "KSI-INR-03",
+      "evidence_directory": "KSI-INR-03",
+      "file_path": "evidence_v2/KSI-INR-03/cli_output.json",
+      "file_size": 704,
+      "file_modified": "2025-08-09T02:43:13Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-RPL-01/cli_output.json": {
+      "ksi_id": "KSI-RPL-01",
+      "evidence_directory": "KSI-RPL-01",
+      "file_path": "evidence_v2/KSI-RPL-01/cli_output.json",
+      "file_size": 3078,
+      "file_modified": "2025-08-09T02:43:04Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 3,
+      "successful_commands": 3,
+      "failed_commands": 0,
+      "command_types": [
+        "manual",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CNA-02/cli_output.json": {
+      "ksi_id": "KSI-CNA-02",
+      "evidence_directory": "KSI-CNA-02",
+      "file_path": "evidence_v2/KSI-CNA-02/cli_output.json",
+      "file_size": 190320,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 11,
+      "successful_commands": 10,
+      "failed_commands": 1,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CNA-01/cli_output.json": {
+      "ksi_id": "KSI-CNA-01",
+      "evidence_directory": "KSI-CNA-01",
+      "file_path": "evidence_v2/KSI-CNA-01/cli_output.json",
+      "file_size": 62036,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 8,
+      "successful_commands": 8,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
     },
     "evidence_v2/KSI-PIY-05/cli_output.json": {
       "ksi_id": "KSI-PIY-05",
       "evidence_directory": "KSI-PIY-05",
       "file_path": "evidence_v2/KSI-PIY-05/cli_output.json",
       "file_size": 675,
-      "file_modified": "2025-08-08T09:16:10Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "file_modified": "2025-08-09T02:42:58Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-SVC-02/cli_output.json": {
+      "ksi_id": "KSI-SVC-02",
+      "evidence_directory": "KSI-SVC-02",
+      "file_path": "evidence_v2/KSI-SVC-02/cli_output.json",
+      "file_size": 28711,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 9,
+      "failed_commands": 1,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-IAM-01/cli_output.json": {
+      "ksi_id": "KSI-IAM-01",
+      "evidence_directory": "KSI-IAM-01",
+      "file_path": "evidence_v2/KSI-IAM-01/cli_output.json",
+      "file_size": 10169,
+      "file_modified": "2025-08-09T02:41:05Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 4,
+      "successful_commands": 3,
+      "failed_commands": 1,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-IAM-03/cli_output.json": {
+      "ksi_id": "KSI-IAM-03",
+      "evidence_directory": "KSI-IAM-03",
+      "file_path": "evidence_v2/KSI-IAM-03/cli_output.json",
+      "file_size": 52902,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 4,
+      "successful_commands": 3,
+      "failed_commands": 1,
+      "command_types": [
+        "other-cli",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-IAM-06/cli_output.json": {
+      "ksi_id": "KSI-IAM-06",
+      "evidence_directory": "KSI-IAM-06",
+      "file_path": "evidence_v2/KSI-IAM-06/cli_output.json",
+      "file_size": 31612,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 10,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-MLA-04/cli_output.json": {
+      "ksi_id": "KSI-MLA-04",
+      "evidence_directory": "KSI-MLA-04",
+      "file_path": "evidence_v2/KSI-MLA-04/cli_output.json",
+      "file_size": 154930,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 8,
+      "successful_commands": 8,
+      "failed_commands": 0,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CMT-04/cli_output.json": {
+      "ksi_id": "KSI-CMT-04",
+      "evidence_directory": "KSI-CMT-04",
+      "file_path": "evidence_v2/KSI-CMT-04/cli_output.json",
+      "file_size": 644,
+      "file_modified": "2025-08-09T02:42:51Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-INR-02/cli_output.json": {
+      "ksi_id": "KSI-INR-02",
+      "evidence_directory": "KSI-INR-02",
+      "file_path": "evidence_v2/KSI-INR-02/cli_output.json",
+      "file_size": 6220,
+      "file_modified": "2025-08-09T02:43:13Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 3,
+      "successful_commands": 3,
+      "failed_commands": 0,
+      "command_types": [
+        "manual",
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-CMT-05/cli_output.json": {
+      "ksi_id": "KSI-CMT-05",
+      "evidence_directory": "KSI-CMT-05",
+      "file_path": "evidence_v2/KSI-CMT-05/cli_output.json",
+      "file_size": 656,
+      "file_modified": "2025-08-09T02:42:51Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 1,
       "successful_commands": 1,
       "failed_commands": 0,
@@ -140,272 +766,68 @@
       "ksi_id": "KSI-SVC-07",
       "evidence_directory": "KSI-SVC-07",
       "file_path": "evidence_v2/KSI-SVC-07/cli_output.json",
-      "file_size": 69437,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "file_size": 69435,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 10,
       "successful_commands": 9,
       "failed_commands": 1,
       "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-RPL-01/cli_output.json": {
-      "ksi_id": "KSI-RPL-01",
-      "evidence_directory": "KSI-RPL-01",
-      "file_path": "evidence_v2/KSI-RPL-01/cli_output.json",
-      "file_size": 3078,
-      "file_modified": "2025-08-08T09:16:15Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 3,
-      "successful_commands": 3,
-      "failed_commands": 0,
-      "command_types": [
-        "manual",
+        "other-cli",
         "aws-cli"
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-IAM-02/cli_output.json": {
-      "ksi_id": "KSI-IAM-02",
-      "evidence_directory": "KSI-IAM-02",
-      "file_path": "evidence_v2/KSI-IAM-02/cli_output.json",
-      "file_size": 3683,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 5,
-      "successful_commands": 4,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-PIY-02/cli_output.json": {
-      "ksi_id": "KSI-PIY-02",
-      "evidence_directory": "KSI-PIY-02",
-      "file_path": "evidence_v2/KSI-PIY-02/cli_output.json",
-      "file_size": 704,
-      "file_modified": "2025-08-08T09:16:08Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-TPR-01/cli_output.json": {
-      "ksi_id": "KSI-TPR-01",
-      "evidence_directory": "KSI-TPR-01",
-      "file_path": "evidence_v2/KSI-TPR-01/cli_output.json",
-      "file_size": 2281,
-      "file_modified": "2025-08-08T09:16:12Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 3,
-      "successful_commands": 2,
-      "failed_commands": 1,
-      "command_types": [
-        "manual",
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-TPR-04/cli_output.json": {
-      "ksi_id": "KSI-TPR-04",
-      "evidence_directory": "KSI-TPR-04",
-      "file_path": "evidence_v2/KSI-TPR-04/cli_output.json",
-      "file_size": 2855,
-      "file_modified": "2025-08-08T09:16:14Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 3,
-      "successful_commands": 3,
-      "failed_commands": 0,
-      "command_types": [
-        "manual",
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-SVC-01/cli_output.json": {
-      "ksi_id": "KSI-SVC-01",
-      "evidence_directory": "KSI-SVC-01",
-      "file_path": "evidence_v2/KSI-SVC-01/cli_output.json",
-      "file_size": 80791,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 10,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CED-01/cli_output.json": {
-      "ksi_id": "KSI-CED-01",
-      "evidence_directory": "KSI-CED-01",
-      "file_path": "evidence_v2/KSI-CED-01/cli_output.json",
-      "file_size": 675,
-      "file_modified": "2025-08-08T09:16:14Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-SVC-05/cli_output.json": {
-      "ksi_id": "KSI-SVC-05",
-      "evidence_directory": "KSI-SVC-05",
-      "file_path": "evidence_v2/KSI-SVC-05/cli_output.json",
-      "file_size": 21854,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 9,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-IAM-01/cli_output.json": {
-      "ksi_id": "KSI-IAM-01",
-      "evidence_directory": "KSI-IAM-01",
-      "file_path": "evidence_v2/KSI-IAM-01/cli_output.json",
-      "file_size": 10171,
-      "file_modified": "2025-08-08T09:14:41Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 4,
-      "successful_commands": 3,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-SVC-06/cli_output.json": {
-      "ksi_id": "KSI-SVC-06",
-      "evidence_directory": "KSI-SVC-06",
-      "file_path": "evidence_v2/KSI-SVC-06/cli_output.json",
-      "file_size": 28548,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 9,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-MLA-01/cli_output.json": {
-      "ksi_id": "KSI-MLA-01",
-      "evidence_directory": "KSI-MLA-01",
-      "file_path": "evidence_v2/KSI-MLA-01/cli_output.json",
-      "file_size": 107742,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-CNA-05/cli_output.json": {
+      "ksi_id": "KSI-CNA-05",
+      "evidence_directory": "KSI-CNA-05",
+      "file_path": "evidence_v2/KSI-CNA-05/cli_output.json",
+      "file_size": 6902,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 8,
       "successful_commands": 7,
       "failed_commands": 1,
       "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CNA-03/cli_output.json": {
-      "ksi_id": "KSI-CNA-03",
-      "evidence_directory": "KSI-CNA-03",
-      "file_path": "evidence_v2/KSI-CNA-03/cli_output.json",
-      "file_size": 37393,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 8,
-      "successful_commands": 8,
-      "failed_commands": 0,
-      "command_types": [
         "aws-cli"
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-RPL-03/cli_output.json": {
-      "ksi_id": "KSI-RPL-03",
-      "evidence_directory": "KSI-RPL-03",
-      "file_path": "evidence_v2/KSI-RPL-03/cli_output.json",
-      "file_size": 230197,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-RPL-04/cli_output.json": {
+      "ksi_id": "KSI-RPL-04",
+      "evidence_directory": "KSI-RPL-04",
+      "file_path": "evidence_v2/KSI-RPL-04/cli_output.json",
+      "file_size": 242978,
+      "file_modified": "2025-08-09T02:43:11Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 4,
       "successful_commands": 4,
       "failed_commands": 0,
       "command_types": [
+        "manual",
         "aws-cli"
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-RPL-02/cli_output.json": {
-      "ksi_id": "KSI-RPL-02",
-      "evidence_directory": "KSI-RPL-02",
-      "file_path": "evidence_v2/KSI-RPL-02/cli_output.json",
-      "file_size": 674,
-      "file_modified": "2025-08-08T09:16:15Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-CED-02/cli_output.json": {
+      "ksi_id": "KSI-CED-02",
+      "evidence_directory": "KSI-CED-02",
+      "file_path": "evidence_v2/KSI-CED-02/cli_output.json",
+      "file_size": 482,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 1,
       "successful_commands": 1,
       "failed_commands": 0,
@@ -419,11 +841,11 @@
       "evidence_directory": "KSI-PIY-04",
       "file_path": "evidence_v2/KSI-PIY-04/cli_output.json",
       "file_size": 2736,
-      "file_modified": "2025-08-08T09:16:10Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "file_modified": "2025-08-09T02:42:58Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 4,
       "successful_commands": 4,
       "failed_commands": 0,
@@ -433,476 +855,18 @@
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-PIY-06/cli_output.json": {
-      "ksi_id": "KSI-PIY-06",
-      "evidence_directory": "KSI-PIY-06",
-      "file_path": "evidence_v2/KSI-PIY-06/cli_output.json",
-      "file_size": 674,
-      "file_modified": "2025-08-08T09:16:10Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-CED-02/cli_output.json": {
-      "ksi_id": "KSI-CED-02",
-      "evidence_directory": "KSI-CED-02",
-      "file_path": "evidence_v2/KSI-CED-02/cli_output.json",
-      "file_size": 482,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-TPR-02/cli_output.json": {
-      "ksi_id": "KSI-TPR-02",
-      "evidence_directory": "KSI-TPR-02",
-      "file_path": "evidence_v2/KSI-TPR-02/cli_output.json",
-      "file_size": 1583,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 2,
-      "successful_commands": 1,
-      "failed_commands": 1,
-      "command_types": [
-        "manual",
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CMT-04/cli_output.json": {
-      "ksi_id": "KSI-CMT-04",
-      "evidence_directory": "KSI-CMT-04",
-      "file_path": "evidence_v2/KSI-CMT-04/cli_output.json",
-      "file_size": 644,
-      "file_modified": "2025-08-08T09:16:05Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-INR-03/cli_output.json": {
-      "ksi_id": "KSI-INR-03",
-      "evidence_directory": "KSI-INR-03",
-      "file_path": "evidence_v2/KSI-INR-03/cli_output.json",
-      "file_size": 704,
-      "file_modified": "2025-08-08T09:16:22Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-CMT-05/cli_output.json": {
-      "ksi_id": "KSI-CMT-05",
-      "evidence_directory": "KSI-CMT-05",
-      "file_path": "evidence_v2/KSI-CMT-05/cli_output.json",
-      "file_size": 656,
-      "file_modified": "2025-08-08T09:16:05Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-IAM-06/cli_output.json": {
-      "ksi_id": "KSI-IAM-06",
-      "evidence_directory": "KSI-IAM-06",
-      "file_path": "evidence_v2/KSI-IAM-06/cli_output.json",
-      "file_size": 31613,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 10,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CMT-02/cli_output.json": {
-      "ksi_id": "KSI-CMT-02",
-      "evidence_directory": "KSI-CMT-02",
-      "file_path": "evidence_v2/KSI-CMT-02/cli_output.json",
-      "file_size": 24756,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 8,
-      "failed_commands": 2,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-RPL-04/cli_output.json": {
-      "ksi_id": "KSI-RPL-04",
-      "evidence_directory": "KSI-RPL-04",
-      "file_path": "evidence_v2/KSI-RPL-04/cli_output.json",
-      "file_size": 239103,
-      "file_modified": "2025-08-08T09:16:21Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 4,
-      "successful_commands": 4,
-      "failed_commands": 0,
-      "command_types": [
-        "manual",
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-MLA-05/cli_output.json": {
-      "ksi_id": "KSI-MLA-05",
-      "evidence_directory": "KSI-MLA-05",
-      "file_path": "evidence_v2/KSI-MLA-05/cli_output.json",
-      "file_size": 49654,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 9,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-SVC-03/cli_output.json": {
-      "ksi_id": "KSI-SVC-03",
-      "evidence_directory": "KSI-SVC-03",
-      "file_path": "evidence_v2/KSI-SVC-03/cli_output.json",
-      "file_size": 19561,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 7,
-      "successful_commands": 6,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-TPR-03/cli_output.json": {
-      "ksi_id": "KSI-TPR-03",
-      "evidence_directory": "KSI-TPR-03",
-      "file_path": "evidence_v2/KSI-TPR-03/cli_output.json",
-      "file_size": 662,
-      "file_modified": "2025-08-08T09:16:12Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 1,
-      "successful_commands": 1,
-      "failed_commands": 0,
-      "command_types": [
-        "manual"
-      ],
-      "validation_format": "single-command"
-    },
-    "evidence_v2/KSI-CNA-06/cli_output.json": {
-      "ksi_id": "KSI-CNA-06",
-      "evidence_directory": "KSI-CNA-06",
-      "file_path": "evidence_v2/KSI-CNA-06/cli_output.json",
-      "file_size": 185560,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 9,
-      "successful_commands": 9,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CNA-04/cli_output.json": {
-      "ksi_id": "KSI-CNA-04",
-      "evidence_directory": "KSI-CNA-04",
-      "file_path": "evidence_v2/KSI-CNA-04/cli_output.json",
-      "file_size": 502025,
-      "file_modified": "2025-08-08T09:16:27Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 7,
-      "successful_commands": 6,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-MLA-04/cli_output.json": {
-      "ksi_id": "KSI-MLA-04",
-      "evidence_directory": "KSI-MLA-04",
-      "file_path": "evidence_v2/KSI-MLA-04/cli_output.json",
-      "file_size": 154986,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 8,
-      "successful_commands": 8,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CMT-01/cli_output.json": {
-      "ksi_id": "KSI-CMT-01",
-      "evidence_directory": "KSI-CMT-01",
-      "file_path": "evidence_v2/KSI-CMT-01/cli_output.json",
-      "file_size": 31771,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-CMT-03/cli_output.json": {
+      "ksi_id": "KSI-CMT-03",
+      "evidence_directory": "KSI-CMT-03",
+      "file_path": "evidence_v2/KSI-CMT-03/cli_output.json",
+      "file_size": 21197,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 9,
       "successful_commands": 8,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-MLA-06/cli_output.json": {
-      "ksi_id": "KSI-MLA-06",
-      "evidence_directory": "KSI-MLA-06",
-      "file_path": "evidence_v2/KSI-MLA-06/cli_output.json",
-      "file_size": 664240,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 8,
-      "failed_commands": 2,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-IAM-05/cli_output.json": {
-      "ksi_id": "KSI-IAM-05",
-      "evidence_directory": "KSI-IAM-05",
-      "file_path": "evidence_v2/KSI-IAM-05/cli_output.json",
-      "file_size": 54474,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 8,
-      "successful_commands": 8,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CNA-02/cli_output.json": {
-      "ksi_id": "KSI-CNA-02",
-      "evidence_directory": "KSI-CNA-02",
-      "file_path": "evidence_v2/KSI-CNA-02/cli_output.json",
-      "file_size": 190320,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 11,
-      "successful_commands": 10,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-MLA-02/cli_output.json": {
-      "ksi_id": "KSI-MLA-02",
-      "evidence_directory": "KSI-MLA-02",
-      "file_path": "evidence_v2/KSI-MLA-02/cli_output.json",
-      "file_size": 27746,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 9,
-      "successful_commands": 8,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-INR-02/cli_output.json": {
-      "ksi_id": "KSI-INR-02",
-      "evidence_directory": "KSI-INR-02",
-      "file_path": "evidence_v2/KSI-INR-02/cli_output.json",
-      "file_size": 6220,
-      "file_modified": "2025-08-08T09:16:22Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 3,
-      "successful_commands": 3,
-      "failed_commands": 0,
-      "command_types": [
-        "manual",
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-SVC-02/cli_output.json": {
-      "ksi_id": "KSI-SVC-02",
-      "evidence_directory": "KSI-SVC-02",
-      "file_path": "evidence_v2/KSI-SVC-02/cli_output.json",
-      "file_size": 28711,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 9,
-      "failed_commands": 1,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-PIY-01/cli_output.json": {
-      "ksi_id": "KSI-PIY-01",
-      "evidence_directory": "KSI-PIY-01",
-      "file_path": "evidence_v2/KSI-PIY-01/cli_output.json",
-      "file_size": 191125,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 5,
-      "successful_commands": 4,
-      "failed_commands": 1,
-      "command_types": [
-        "manual",
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-IAM-04/cli_output.json": {
-      "ksi_id": "KSI-IAM-04",
-      "evidence_directory": "KSI-IAM-04",
-      "file_path": "evidence_v2/KSI-IAM-04/cli_output.json",
-      "file_size": 56009,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 6,
-      "successful_commands": 6,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli",
-        "other-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CNA-01/cli_output.json": {
-      "ksi_id": "KSI-CNA-01",
-      "evidence_directory": "KSI-CNA-01",
-      "file_path": "evidence_v2/KSI-CNA-01/cli_output.json",
-      "file_size": 62035,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 8,
-      "successful_commands": 8,
-      "failed_commands": 0,
-      "command_types": [
-        "aws-cli"
-      ],
-      "validation_format": "multi-command"
-    },
-    "evidence_v2/KSI-CNA-05/cli_output.json": {
-      "ksi_id": "KSI-CNA-05",
-      "evidence_directory": "KSI-CNA-05",
-      "file_path": "evidence_v2/KSI-CNA-05/cli_output.json",
-      "file_size": 6902,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 8,
-      "successful_commands": 7,
       "failed_commands": 1,
       "command_types": [
         "aws-cli"
@@ -914,11 +878,11 @@
       "evidence_directory": "KSI-INR-01",
       "file_path": "evidence_v2/KSI-INR-01/cli_output.json",
       "file_size": 776,
-      "file_modified": "2025-08-08T09:16:21Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "file_modified": "2025-08-09T02:43:11Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 1,
       "successful_commands": 1,
       "failed_commands": 0,
@@ -927,35 +891,53 @@
       ],
       "validation_format": "single-command"
     },
-    "evidence_v2/KSI-SVC-04/cli_output.json": {
-      "ksi_id": "KSI-SVC-04",
-      "evidence_directory": "KSI-SVC-04",
-      "file_path": "evidence_v2/KSI-SVC-04/cli_output.json",
-      "file_size": 77442,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 10,
-      "successful_commands": 8,
-      "failed_commands": 2,
+    "evidence_v2/KSI-PIY-01/cli_output.json": {
+      "ksi_id": "KSI-PIY-01",
+      "evidence_directory": "KSI-PIY-01",
+      "file_path": "evidence_v2/KSI-PIY-01/cli_output.json",
+      "file_size": 195791,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 5,
+      "successful_commands": 4,
+      "failed_commands": 1,
       "command_types": [
-        "aws-cli",
-        "other-cli"
+        "manual",
+        "aws-cli"
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-CMT-03/cli_output.json": {
-      "ksi_id": "KSI-CMT-03",
-      "evidence_directory": "KSI-CMT-03",
-      "file_path": "evidence_v2/KSI-CMT-03/cli_output.json",
-      "file_size": 21197,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-RPL-02/cli_output.json": {
+      "ksi_id": "KSI-RPL-02",
+      "evidence_directory": "KSI-RPL-02",
+      "file_path": "evidence_v2/KSI-RPL-02/cli_output.json",
+      "file_size": 674,
+      "file_modified": "2025-08-09T02:43:04Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 1,
+      "successful_commands": 1,
+      "failed_commands": 0,
+      "command_types": [
+        "manual"
+      ],
+      "validation_format": "single-command"
+    },
+    "evidence_v2/KSI-CMT-01/cli_output.json": {
+      "ksi_id": "KSI-CMT-01",
+      "evidence_directory": "KSI-CMT-01",
+      "file_path": "evidence_v2/KSI-CMT-01/cli_output.json",
+      "file_size": 31743,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 9,
       "successful_commands": 8,
       "failed_commands": 1,
@@ -964,39 +946,57 @@
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-IAM-03/cli_output.json": {
-      "ksi_id": "KSI-IAM-03",
-      "evidence_directory": "KSI-IAM-03",
-      "file_path": "evidence_v2/KSI-IAM-03/cli_output.json",
-      "file_size": 52903,
-      "file_modified": "2025-08-08T09:16:28Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
-      "total_commands": 4,
-      "successful_commands": 3,
-      "failed_commands": 1,
+    "evidence_v2/KSI-SVC-01/cli_output.json": {
+      "ksi_id": "KSI-SVC-01",
+      "evidence_directory": "KSI-SVC-01",
+      "file_path": "evidence_v2/KSI-SVC-01/cli_output.json",
+      "file_size": 80763,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 10,
+      "successful_commands": 10,
+      "failed_commands": 0,
       "command_types": [
-        "aws-cli",
-        "other-cli"
+        "aws-cli"
       ],
       "validation_format": "multi-command"
     },
-    "evidence_v2/KSI-MLA-03/cli_output.json": {
-      "ksi_id": "KSI-MLA-03",
-      "evidence_directory": "KSI-MLA-03",
-      "file_path": "evidence_v2/KSI-MLA-03/cli_output.json",
-      "file_size": 112320,
-      "file_modified": "2025-08-08T09:16:29Z",
-      "commit_sha": "2ecb989",
-      "full_commit_sha": "2ecb989620a64e8e5434a5b2080c137a86e16bf9",
-      "commit_time": "2025-08-08T02:51:42Z",
-      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 02:51:42 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+    "evidence_v2/KSI-MLA-02/cli_output.json": {
+      "ksi_id": "KSI-MLA-02",
+      "evidence_directory": "KSI-MLA-02",
+      "file_path": "evidence_v2/KSI-MLA-02/cli_output.json",
+      "file_size": 26962,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
+      "total_commands": 9,
+      "successful_commands": 8,
+      "failed_commands": 1,
+      "command_types": [
+        "aws-cli"
+      ],
+      "validation_format": "multi-command"
+    },
+    "evidence_v2/KSI-MLA-01/cli_output.json": {
+      "ksi_id": "KSI-MLA-01",
+      "evidence_directory": "KSI-MLA-01",
+      "file_path": "evidence_v2/KSI-MLA-01/cli_output.json",
+      "file_size": 107744,
+      "file_modified": "2025-08-09T02:43:21Z",
+      "commit_sha": "f3d0363",
+      "full_commit_sha": "f3d0363914a71f689826c81c0dd5dd0104bfdfbe",
+      "commit_time": "2025-08-08T09:16:32Z",
+      "commit_message": "\ud83e\udd16 Automated FedRAMP 20x CLI validation pipeline output (2025-08-08 09:16:32 UTC) | 51/51 KSIs passed | Multi-account \u26a0\ufe0f",
       "total_commands": 8,
       "successful_commands": 7,
       "failed_commands": 1,
       "command_types": [
+        "other-cli",
         "aws-cli"
       ],
       "validation_format": "multi-command"
