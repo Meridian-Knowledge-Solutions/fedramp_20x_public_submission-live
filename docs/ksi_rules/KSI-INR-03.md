@@ -4,11 +4,7 @@
 
 **Category:** Incident Reporting
 **Status:** PASS
-<<<<<<< Updated upstream
-**Last Check:** 2025-08-11 07:34
-=======
-**Last Check:** 2025-08-11 07:40
->>>>>>> Stashed changes
+**Last Check:** 2025-08-11 07:56
 
 **What it validates:** Generate after action reports and regularly incorporate lessons learned into operations
 
@@ -25,8 +21,4 @@ WARNING Basic after action reporting (increase lessons learned implementation): 
 - WARNING Limited evidence of lessons learned implementation into operations
 
 ---
-<<<<<<< Updated upstream
-*Generated 2025-08-11 07:34 UTC*
-=======
-*Generated 2025-08-11 07:40 UTC*
->>>>>>> Stashed changes
+*Generated 2025-08-11 07:56 UTC*
