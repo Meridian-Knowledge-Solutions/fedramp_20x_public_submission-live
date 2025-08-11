@@ -4,7 +4,11 @@
 
 **Category:** Cybersecurity Education
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-08-11 07:34
+=======
+**Last Check:** 2025-08-11 07:40
+>>>>>>> Stashed changes
 
 **What it validates:** Require role-specific training for high risk roles, including at least roles with privileged access
 
@@ -19,4 +23,8 @@
 - PASS Role-specific training including privileged access: fedramp_role_based.png, cyber_security_training.png, security_training_roster.png
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-08-11 07:34 UTC*
+=======
+*Generated 2025-08-11 07:40 UTC*
+>>>>>>> Stashed changes

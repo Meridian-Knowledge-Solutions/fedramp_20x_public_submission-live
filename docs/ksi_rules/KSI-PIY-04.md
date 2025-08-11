@@ -4,7 +4,11 @@
 
 **Category:** Policy and Inventory
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-08-11 07:34
+=======
+**Last Check:** 2025-08-11 07:40
+>>>>>>> Stashed changes
 
 **What it validates:** Build security considerations into SDLC and align with CISA Secure By Design principles
 
@@ -28,4 +32,8 @@
 - WARNING Basic secure development practices (expand documentation): PASS Secure SDLC documentation: Secure Software Development Lifecycle (SDLC) Policy.pdf
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-08-11 07:34 UTC*
+=======
+*Generated 2025-08-11 07:40 UTC*
+>>>>>>> Stashed changes

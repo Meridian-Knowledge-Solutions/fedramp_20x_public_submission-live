@@ -4,7 +4,11 @@
 
 **Category:** Policy and Inventory
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-08-11 07:34
+=======
+**Last Check:** 2025-08-11 07:40
+>>>>>>> Stashed changes
 
 **What it validates:** Document methods used to evaluate information resource implementations
 
@@ -19,4 +23,8 @@
 - WARNING Basic evaluation procedures (expand coverage): PASS Core evaluation methods: Information Resource Evaluation Methodology (KSI-PIY-05).pdf
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-08-11 07:34 UTC*
+=======
+*Generated 2025-08-11 07:40 UTC*
+>>>>>>> Stashed changes

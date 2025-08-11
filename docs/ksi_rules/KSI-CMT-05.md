@@ -4,7 +4,11 @@
 
 **Category:** Change Management
 **Status:** PASS
+<<<<<<< Updated upstream
 **Last Check:** 2025-08-11 07:34
+=======
+**Last Check:** 2025-08-11 07:40
+>>>>>>> Stashed changes
 
 **What it validates:** Evaluate the risk and potential impact of any change
 
@@ -19,4 +23,8 @@
 - PASS Risk and impact evaluation procedures - expand analysis methods (10%): PASS Risk evaluation documentation found: Risk Assessment Procedure for Change Management (KSI-CMT-05).pdf, Change Impact Analysis Template (KSI-CMT-05).pdf
 
 ---
+<<<<<<< Updated upstream
 *Generated 2025-08-11 07:34 UTC*
+=======
+*Generated 2025-08-11 07:40 UTC*
+>>>>>>> Stashed changes
