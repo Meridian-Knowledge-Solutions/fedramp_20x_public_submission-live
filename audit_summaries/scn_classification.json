@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-19T02:40:42.500376",
+  "timestamp": "2025-08-19T05:56:51.853611",
   "scn_type": "routine_recurring",
   "emergency_mode": false,
   "requires_notification": false,
@@ -10,6 +10,7 @@
   "short_description": "Change involving 57 files",
   "reason_for_change": "Operational improvement and compliance maintenance",
   "changed_files": [
+    ".github/workflows/fedramp-cvm-pipeline.yaml",
     "docs/ksi_rules/KSI-CED-01.md",
     "docs/ksi_rules/KSI-CED-02.md",
     "docs/ksi_rules/KSI-CMT-01.md",
@@ -62,7 +63,6 @@
     "docs/ksi_rules/KSI-TPR-03.md",
     "docs/ksi_rules/KSI-TPR-04.md",
     "docs/ksi_rules/README.md",
-    "historical-data/daily/2025-08-19.json",
     "results/continuous_ksi_results.json",
     "results/evidence_commit_metadata.json",
     "results/validation_engine_results.json",
@@ -70,756 +70,756 @@
   ],
   "changed_files_detailed": [
     {
+      "file": ".github/workflows/fedramp-cvm-pipeline.yaml",
+      "commit": {
+        "sha": "ecb1c410",
+        "full_sha_available": true,
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
+        "repository": "fedramp-20x-submission-final",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
+        "verification_method": "git_log_local"
+      }
+    },
+    {
       "file": "docs/ksi_rules/KSI-CED-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CED-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-05.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-05.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-06.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-07.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-05.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-06.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-05.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-06.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-05.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-06.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-07.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-05.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-06.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-07.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-01.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-02.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-03.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-04.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/README.md",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "historical-data/daily/2025-08-19.json",
-      "commit": {
-        "sha": "3ab834f6",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/continuous_ksi_results.json",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/evidence_commit_metadata.json",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/validation_engine_results.json",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "unified_ksi_validations.json",
       "commit": {
-        "sha": "3ab834f6",
+        "sha": "ecb1c410",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-        "author": "GitHub Action",
-        "date": "2025-08-19 02:30:19 +0000",
+        "message": "Update fedramp-cvm-pipeline.yaml",
+        "author": "Kwahf33",
+        "date": "2025-08-18 23:52:00 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+        "commit_reference": "fedramp-20x-submission-final@ecb1c410",
         "verification_method": "git_log_local"
       }
     }
   ],
   "local_commits": [
     {
-      "sha": "3ab834f6",
+      "sha": "ecb1c410",
       "full_sha_available": true,
-      "message": "\ud83d\udcca Add historical metrics for 2025-08-19",
-      "author": "GitHub Action",
-      "date": "2025-08-19 02:30:19 +0000",
+      "message": "Update fedramp-cvm-pipeline.yaml",
+      "author": "Kwahf33",
+      "date": "2025-08-18 23:52:00 -0600",
       "repository": "fedramp-20x-submission-final",
-      "commit_reference": "fedramp-20x-submission-final@3ab834f6",
+      "commit_reference": "fedramp-20x-submission-final@ecb1c410",
       "verification_method": "git_log_local"
     }
   ],
@@ -854,7 +854,7 @@
   "approver": {
     "name": "Meridian Security Team",
     "title": "Chief Security Officer",
-    "approval_date": "2025-08-19T02:40:42.500376"
+    "approval_date": "2025-08-19T05:56:51.853611"
   },
   "fedramp_20x_compliance": {
     "decision_tree_followed": "FRA-SCN-03",
