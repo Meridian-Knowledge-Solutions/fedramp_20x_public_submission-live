@@ -2014,6 +2014,305 @@ td {
             display: block;
         }
 
+
+        /* Enhanced POA&M Modal Styles */
+.findings-overview {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.findings-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: var(--bg-accent);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.summary-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.summary-card.failed {
+    background: rgba(239, 68, 68, 0.1);
+    border-color: var(--danger-500);
+}
+
+.summary-card.warning {
+    background: rgba(245, 158, 11, 0.1);
+    border-color: var(--warning-500);
+}
+
+.summary-card.info {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: var(--enhancement-500);
+}
+
+.summary-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+}
+
+.summary-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 8px 0 4px 0;
+}
+
+.summary-timeframe {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.no-findings {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+}
+
+.no-findings-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.no-findings h3 {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.findings-section {
+    margin-bottom: 30px;
+}
+
+.findings-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.findings-header.failed {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--danger-600);
+    border: 1px solid var(--danger-200);
+}
+
+.findings-header.warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--warning-600);
+    border: 1px solid var(--warning-200);
+}
+
+.findings-header.info {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--enhancement-600);
+    border: 1px solid var(--enhancement-200);
+}
+
+.findings-icon {
+    font-size: 1.2rem;
+}
+
+.priority-badge {
+    margin-left: auto;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.priority-badge.high {
+    background: var(--danger-500);
+    color: white;
+}
+
+.priority-badge.medium {
+    background: var(--warning-500);
+    color: white;
+}
+
+.priority-badge.low {
+    background: var(--enhancement-500);
+    color: white;
+}
+
+.findings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finding-item {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.finding-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.finding-item.failed {
+    border-left: 4px solid var(--danger-500);
+}
+
+.finding-item.warning {
+    border-left: 4px solid var(--warning-500);
+}
+
+.finding-item.info {
+    border-left: 4px solid var(--enhancement-500);
+}
+
+.finding-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.finding-id {
+    font-family: monospace;
+    font-weight: 600;
+    color: var(--text-primary);
+    background: var(--bg-accent);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.finding-category {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--enhancement-600);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.finding-description {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.finding-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.finding-meta span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.findings-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    border-top: 1px solid var(--border-color);
+    margin-top: 30px;
+}
+
+.action-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.action-btn.export {
+    background: var(--enhancement-500);
+    color: white;
+}
+
+.action-btn.template {
+    background: var(--warning-500);
+    color: white;
+}
+
+.action-btn.priority {
+    background: var(--danger-500);
+    color: white;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+/* Dark mode support */
+[data-theme="dark"] .findings-summary {
+    background: var(--bg-accent);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .finding-item {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .finding-id {
+    background: var(--bg-accent);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .findings-summary {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .findings-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .action-btn {
+        justify-content: center;
+    }
+    
+    .finding-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .finding-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+
+
+
         .poam-info {
             background: var(--bg-accent);
             border: 1px solid var(--border-color);
@@ -2209,108 +2508,6 @@ td {
             margin-bottom: 10px;
         }
 
-        /* Enhanced SCN Transparency Styles */
-        .scn-dashboard {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .scn-status-card {
-            background: linear-gradient(135deg, #10b981, #059669);
-            color: white;
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-        }
-
-        .scn-status-value {
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .scn-status-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-
-        .scn-recent-activity {
-            background: var(--bg-accent);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 20px;
-        }
-
-        .scn-activity-item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .scn-activity-item:last-child {
-            border-bottom: none;
-        }
-
-        .scn-type-badge {
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        .scn-type-routine {
-            background: #dcfce7;
-            color: #166534;
-        }
-
-        .scn-type-adaptive {
-            background: #fef3c7;
-            color: #92400e;
-        }
-
-        .scn-type-transformative {
-            background: #fee2e2;
-            color: #991b1b;
-        }
-
-        .scn-details-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .scn-detail-card {
-            background: var(--bg-accent);
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid var(--primary-500);
-            border: 1px solid var(--border-color);
-        }
-
-        .scn-file-list {
-            max-height: 200px;
-            overflow-y: auto;
-            background: var(--bg-accent);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 10px;
-            font-family: monospace;
-            font-size: 0.85rem;
-            color: var(--text-primary);
-        }
-
-        .scn-compliance-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
 
         .compliance-check {
             display: flex;
@@ -2653,7 +2850,6 @@ td {
             <div class="tab-navigation">
                 <button class="tab-btn active" onclick="showTab('compliance')">🔍 Compliance Dashboard</button>
                 <button class="tab-btn" onclick="showTab('trust-center')">🛡️ Trust Center (RFC-0011)</button>
-                <button class="tab-btn" onclick="showTab('scn-transparency')">🔄 SCN Transparency</button>
             </div>
 
             <div class="header-info">
@@ -3047,19 +3243,10 @@ async function getAuthorizationSummary() {
                 </div>
             </div>
 
-            <!-- Enhanced Quick Access Grid -->
-            <div class="quick-access-grid">
-                <div class="access-card" onclick="scrollToSection('scn-transparency-section')">
-                    <div class="card-icon">🔄</div>
-                    <h3>SCN Transparency</h3>
-                    <p>Real-time change notification monitoring</p>
-                    <button class="access-btn">View Live SCN Data</button>
-                </div>
                 
                 <div class="access-card" onclick="scrollToSection('api-section-scn')">
                     <div class="card-icon">🔧</div>
                     <h3>Enhanced API Access</h3>
-                    <p>Machine-readable SCN and KSI data</p>
                     <button class="access-btn">View API Docs</button>
                 </div>
                 
@@ -4456,27 +4643,212 @@ Please provide guidance on how to address this ${ksi.status === 'failed' ? 'comp
             }
         }
 
-        // Enhanced POA&M Modal
-        function showPOAMModal() {
-            const modalTitle = document.getElementById('poam-modal-title');
-            const modalBody = document.getElementById('poam-modal-body');
+        // Enhanced POA&M Modal with Consolidated Findings View
+function showPOAMModal() {
+    const modalTitle = document.getElementById('poam-modal-title');
+    const modalBody = document.getElementById('poam-modal-body');
+    
+    modalTitle.innerHTML = '📊 Consolidated Findings Analysis';
+    
+    // Get findings by category
+    const failedKsis = allKsis.filter(ksi => ksi.status === 'failed');
+    const warningKsis = allKsis.filter(ksi => ksi.status === 'warning');
+    const infoKsis = allKsis.filter(ksi => ksi.status === 'info');
+    
+    const totalFindings = failedKsis.length + warningKsis.length + infoKsis.length;
+    
+    modalBody.innerHTML = `
+        <div class="findings-overview">
+            <!-- Summary Header -->
+            <div class="findings-summary">
+                <div class="summary-card failed">
+                    <div class="summary-number">${failedKsis.length}</div>
+                    <div class="summary-label">Non-Compliant</div>
+                    <div class="summary-timeframe">30-day remediation</div>
+                </div>
+                <div class="summary-card warning">
+                    <div class="summary-number">${warningKsis.length}</div>
+                    <div class="summary-label">Low Risk</div>
+                    <div class="summary-timeframe">90-day tracking</div>
+                </div>
+                <div class="summary-card info">
+                    <div class="summary-number">${infoKsis.length}</div>
+                    <div class="summary-label">Improvements</div>
+                    <div class="summary-timeframe">180-day tracking</div>
+                </div>
+            </div>
             
-            modalTitle.innerHTML = '🚀 Risk-Based POA&M Analysis';
+            ${totalFindings === 0 ? `
+                <div class="no-findings">
+                    <div class="no-findings-icon">🎉</div>
+                    <h3>All KSIs Are Compliant</h3>
+                    <p>No findings requiring remediation or tracking at this time.</p>
+                </div>
+            ` : ''}
             
-            modalBody.innerHTML = `
-                <div style="text-align: center; padding: 3rem; color: var(--text-secondary);">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
-                    <h3 style="color: var(--text-primary); margin-bottom: 1rem;">Risk-Based POA&M System</h3>
-                    <p style="margin-bottom: 1rem;">Multi-level tracking system showing compliance, risk findings, and improvement opportunities.</p>
-                    <div style="background: rgba(59, 130, 246, 0.1); border: 1px solid var(--enhancement-500); border-radius: 8px; padding: 1rem; margin-top: 1.5rem; color: var(--enhancement-600);">
-                        <strong>🚀 Innovation:</strong> First FedRAMP 20x submission with risk-based POA&M tracking beyond traditional binary compliance.
+            <!-- Non-Compliant Findings -->
+            ${failedKsis.length > 0 ? `
+                <div class="findings-section">
+                    <h3 class="findings-header failed">
+                        <span class="findings-icon">🚨</span>
+                        Non-Compliant KSIs (${failedKsis.length})
+                        <span class="priority-badge high">HIGH PRIORITY</span>
+                    </h3>
+                    <div class="findings-list">
+                        ${failedKsis.map(ksi => `
+                            <div class="finding-item failed" onclick="showKSIDetails('${ksi.id}')">
+                                <div class="finding-header">
+                                    <span class="finding-id">${ksi.id}</span>
+                                    <span class="finding-category">${ksi.category}</span>
+                                </div>
+                                <div class="finding-description">${ksi.description}</div>
+                                <div class="finding-meta">
+                                    <span class="deadline">⏰ 30-day deadline</span>
+                                    <span class="action-required">📋 POA&M Required</span>
+                                </div>
+                            </div>
+                        `).join('')}
                     </div>
                 </div>
-            `;
+            ` : ''}
+            
+            <!-- Low Risk Findings -->
+            ${warningKsis.length > 0 ? `
+                <div class="findings-section">
+                    <h3 class="findings-header warning">
+                        <span class="findings-icon">🟡</span>
+                        Low Risk Findings (${warningKsis.length})
+                        <span class="priority-badge medium">MEDIUM PRIORITY</span>
+                    </h3>
+                    <div class="findings-list">
+                        ${warningKsis.map(ksi => `
+                            <div class="finding-item warning" onclick="showKSIDetails('${ksi.id}')">
+                                <div class="finding-header">
+                                    <span class="finding-id">${ksi.id}</span>
+                                    <span class="finding-category">${ksi.category}</span>
+                                </div>
+                                <div class="finding-description">${ksi.description}</div>
+                                <div class="finding-meta">
+                                    <span class="deadline">⏰ 90-day tracking</span>
+                                    <span class="risk-level">📊 Low Risk</span>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            ` : ''}
+            
+            <!-- Improvement Opportunities -->
+            ${infoKsis.length > 0 ? `
+                <div class="findings-section">
+                    <h3 class="findings-header info">
+                        <span class="findings-icon">📈</span>
+                        Improvement Opportunities (${infoKsis.length})
+                        <span class="priority-badge low">ENHANCEMENT</span>
+                    </h3>
+                    <div class="findings-list">
+                        ${infoKsis.map(ksi => `
+                            <div class="finding-item info" onclick="showKSIDetails('${ksi.id}')">
+                                <div class="finding-header">
+                                    <span class="finding-id">${ksi.id}</span>
+                                    <span class="finding-category">${ksi.category}</span>
+                                </div>
+                                <div class="finding-description">${ksi.description}</div>
+                                <div class="finding-meta">
+                                    <span class="deadline">⏰ 180-day tracking</span>
+                                    <span class="enhancement">🚀 Enhancement</span>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            ` : ''}
+            
+            <!-- Action Buttons -->
+            <div class="findings-actions">
+                <button onclick="exportFindings()" class="action-btn export">
+                    📄 Export Findings Report
+                </button>
+                <button onclick="generatePOAMTemplate()" class="action-btn template">
+                    📋 Generate POA&M Template
+                </button>
+                ${failedKsis.length > 0 ? `
+                    <button onclick="prioritizeRemediation()" class="action-btn priority">
+                        🚨 Prioritize Remediation
+                    </button>
+                ` : ''}
+            </div>
+        </div>
+    `;
 
-            document.getElementById('poam-modal').classList.add('active');
-            document.body.style.overflow = 'hidden';
+    document.getElementById('poam-modal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// Helper function to show individual KSI details (integrates with existing system)
+function showKSIDetails(ksiId) {
+    // Close the POA&M modal first
+    closePOAMModal();
+    
+    // Find and show the specific KSI (could integrate with existing Why modal)
+    const ksi = allKsis.find(k => k.id === ksiId);
+    if (ksi) {
+        showWhyModal(ksiId, ksi.status, ksi.assertion_reason);
+    }
+}
+
+// Additional helper functions
+function exportFindings() {
+    const failedKsis = allKsis.filter(ksi => ksi.status === 'failed');
+    const warningKsis = allKsis.filter(ksi => ksi.status === 'warning');
+    const infoKsis = allKsis.filter(ksi => ksi.status === 'info');
+    
+    const report = {
+        generated: new Date().toISOString(),
+        summary: {
+            total_findings: failedKsis.length + warningKsis.length + infoKsis.length,
+            non_compliant: failedKsis.length,
+            low_risk: warningKsis.length,
+            improvements: infoKsis.length
+        },
+        findings: {
+            non_compliant: failedKsis.map(ksi => ({
+                id: ksi.id,
+                category: ksi.category,
+                description: ksi.description,
+                priority: 'HIGH',
+                deadline: '30 days'
+            })),
+            low_risk: warningKsis.map(ksi => ({
+                id: ksi.id,
+                category: ksi.category,
+                description: ksi.description,
+                priority: 'MEDIUM',
+                deadline: '90 days'
+            })),
+            improvements: infoKsis.map(ksi => ({
+                id: ksi.id,
+                category: ksi.category,
+                description: ksi.description,
+                priority: 'LOW',
+                deadline: '180 days'
+            }))
         }
+    };
+    
+    downloadJSON(report, 'consolidated_findings_report.json');
+}
+
+function generatePOAMTemplate() {
+    // Integration point for POA&M template generation
+    console.log('Generating POA&M template...');
+    // Could integrate with existing POA&M generation logic
+}
+
+function prioritizeRemediation() {
+    // Could show a sub-modal with prioritized remediation plan
+    console.log('Showing remediation priorities...');
+}
 
         function showEnhancementModal(ksiId) {
             const modalTitle = document.getElementById('enhancement-modal-title');
@@ -4591,13 +4963,6 @@ Please provide guidance on how to address this ${ksi.status === 'failed' ? 'comp
             } else if (tabName === 'trust-center') {
                 document.getElementById('trust-center-tab').classList.add('active');
                 document.querySelector('.tab-btn[onclick="showTab(\'trust-center\')"]').classList.add('active');
-            } else if (tabName === 'scn-transparency') {
-                document.getElementById('scn-transparency-tab').classList.add('active');
-                document.querySelector('.tab-btn[onclick="showTab(\'scn-transparency\')"]').classList.add('active');
-                // Initialize SCN Dashboard when tab is shown
-                if (typeof initializeSCNDashboard === 'function') {
-                    initializeSCNDashboard();
-                }
             }
         }
 
@@ -4682,171 +5047,6 @@ Please provide guidance on how to address this ${ksi.status === 'failed' ? 'comp
             URL.revokeObjectURL(url);
         }
 
-        // Enhanced SCN Data Loading and Display
-        class SCNDashboard {
-            constructor() {
-                this.baseUrl = 'https://meridian-knowledge-solutions.github.io/fedramp_20x_public_submission-live/scn_automation';
-                this.loadSCNData();
-                this.loadEnhancedStatus();
-                
-                // Auto-refresh every 5 minutes
-                setInterval(() => {
-                    this.loadSCNData();
-                    this.loadEnhancedStatus();
-                }, 300000);
-            }
-
-            async loadSCNData() {
-                try {
-                    const response = await fetch(`${this.baseUrl}/scn_classification.json`);
-                    const data = await response.json();
-                    this.updateSCNDisplay(data);
-                } catch (error) {
-                    console.error('Error loading SCN data:', error);
-                    this.showError('SCN data');
-                }
-            }
-
-            async loadEnhancedStatus() {
-                try {
-                    const response = await fetch(`${this.baseUrl}/enhanced_scn_status.json`);
-                    const data = await response.json();
-                    this.updateStatusDisplay(data);
-                } catch (error) {
-                    console.error('Error loading enhanced status:', error);
-                    this.showError('Status data');
-                }
-            }
-
-            updateSCNDisplay(data) {
-                // Update main status
-                const statusValue = document.getElementById('scn-status-value');
-                if (statusValue) {
-                    const scnType = data.scn_type.replace('_', ' ').toUpperCase();
-                    statusValue.textContent = scnType;
-                    statusValue.parentElement.className = `scn-status-card scn-type-${data.scn_type}`;
-                }
-
-                // Update timestamp
-                const timestamp = new Date(data.timestamp).toLocaleString();
-                const lastUpdateEl = document.getElementById('scn-last-update');
-                if (lastUpdateEl) {
-                    lastUpdateEl.textContent = timestamp;
-                }
-
-                // Update details
-                const elements = {
-                    'scn-service-id': data.service_offering_fedramp_id,
-                    'scn-3pao': data['3pao_name'],
-                    'scn-customer-impact': data.customer_impact.service_changes,
-                    'scn-file-count': `${data.file_count} files`
-                };
-
-                Object.entries(elements).forEach(([id, value]) => {
-                    const el = document.getElementById(id);
-                    if (el) el.textContent = value;
-                });
-
-                // Update compliance checks
-                this.updateComplianceChecks(data.fedramp_20x_compliance);
-
-                // Update file list
-                this.updateFileList(data.changed_files);
-
-                // Update activity
-                this.updateActivity(data);
-            }
-
-            updateStatusDisplay(data) {
-                const automation = data.enhanced_scn_automation;
-                
-                const statusElements = {
-                    'enhanced-scn-active': automation.monitoring_active ? '✅ Active' : '❌ Inactive',
-                    'fedramp-compliant': automation.fedramp_20x_compliant ? '✅ Compliant' : '❌ Non-Compliant',
-                    'emergency-support': automation.emergency_mode_support ? '✅ Supported' : '❌ Not Supported',
-                    'public-transparency': automation.public_transparency ? '✅ Active' : '❌ Inactive'
-                };
-
-                Object.entries(statusElements).forEach(([id, value]) => {
-                    const el = document.getElementById(id);
-                    if (el) el.innerHTML = value;
-                });
-            }
-
-            updateComplianceChecks(compliance) {
-                const container = document.getElementById('scn-compliance-checks');
-                if (!container) return;
-                
-                container.innerHTML = '';
-
-                if (compliance.requirements_met) {
-                    compliance.requirements_met.forEach(req => {
-                        const check = document.createElement('div');
-                        check.className = 'compliance-check passed';
-                        check.innerHTML = `
-                            <span class="compliance-check-icon">✅</span>
-                            <span>${req}</span>
-                        `;
-                        container.appendChild(check);
-                    });
-                }
-
-                // Add decision tree compliance
-                if (compliance.decision_tree_followed) {
-                    const check = document.createElement('div');
-                    check.className = 'compliance-check passed';
-                    check.innerHTML = `
-                        <span class="compliance-check-icon">✅</span>
-                        <span>${compliance.decision_tree_followed} Decision Tree</span>
-                    `;
-                    container.appendChild(check);
-                }
-            }
-
-            updateFileList(files) {
-                const container = document.getElementById('scn-files-list');
-                if (!container) return;
-                
-                if (files && files.length > 0) {
-                    container.innerHTML = files.map(file => `• ${file}`).join('\n');
-                } else {
-                    container.textContent = 'No files changed in current classification';
-                }
-            }
-
-            updateActivity(data) {
-                const container = document.getElementById('scn-activity-list');
-                if (!container) return;
-                
-                const activityItem = document.createElement('div');
-                activityItem.className = 'scn-activity-item';
-                
-                const badge = `<span class="scn-type-badge scn-type-${data.scn_type}">${data.scn_type.replace('_', ' ')}</span>`;
-                const timestamp = new Date(data.timestamp).toLocaleDateString();
-                
-                activityItem.innerHTML = `
-                    <div>
-                        ${badge}
-                        <div style="margin-top: 5px; font-size: 0.9rem; color: var(--text-secondary);">
-                            ${data.short_description} • ${timestamp}
-                        </div>
-                    </div>
-                `;
-                
-                container.innerHTML = '';
-                container.appendChild(activityItem);
-            }
-
-            showError(type) {
-                console.log(`Error loading ${type} - using fallback display`);
-            }
-        }
-
-        function initializeSCNDashboard() {
-            if (typeof window.scnDashboard === 'undefined') {
-                window.scnDashboard = new SCNDashboard();
-            }
-        }
 
         function initializeDashboard() {
             console.log('🔄 Initializing enhanced POA&M dashboard with updated risk-based terminology...');
@@ -4883,7 +5083,6 @@ Please provide guidance on how to address this ${ksi.status === 'failed' ? 'comp
         window.closeEnhancementModal = closeEnhancementModal;
         window.toggleCommandDetails = toggleCommandDetails;
         window.downloadEvidence = downloadEvidence;
-        window.initializeSCNDashboard = initializeSCNDashboard;
 
         // Auto-refresh every 5 minutes
         setInterval(() => {
@@ -4928,7 +5127,6 @@ Please provide guidance on how to address this ${ksi.status === 'failed' ? 'comp
                 });
             }
             
-            console.log('✅ ENHANCED Dashboard initialization complete with SCN Transparency');
         });
 
         // Keyboard shortcuts
