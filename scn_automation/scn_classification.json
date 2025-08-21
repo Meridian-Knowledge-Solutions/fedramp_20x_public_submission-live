@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-20T02:41:56.155442",
+  "timestamp": "2025-08-21T02:41:13.591571",
   "scn_type": "routine_recurring",
   "emergency_mode": false,
   "requires_notification": false,
@@ -62,7 +62,7 @@
     "docs/ksi_rules/KSI-TPR-03.md",
     "docs/ksi_rules/KSI-TPR-04.md",
     "docs/ksi_rules/README.md",
-    "index.html",
+    "historical-data/daily/2025-08-21.json",
     "results/continuous_ksi_results.json",
     "results/evidence_commit_metadata.json",
     "results/validation_engine_results.json",
@@ -72,754 +72,754 @@
     {
       "file": "docs/ksi_rules/KSI-CED-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CED-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-05.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-05.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-06.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-07.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-05.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-06.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-05.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-06.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-05.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-06.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-07.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-05.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-06.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-07.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-01.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-02.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-03.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-04.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/README.md",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
-      "file": "index.html",
+      "file": "historical-data/daily/2025-08-21.json",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/continuous_ksi_results.json",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/evidence_commit_metadata.json",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/validation_engine_results.json",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "unified_ksi_validations.json",
       "commit": {
-        "sha": "d4c7340c",
+        "sha": "c4ac37e0",
         "full_sha_available": true,
-        "message": "Update index.html",
-        "author": "Kwahf33",
-        "date": "2025-08-19 20:33:27 -0600",
+        "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+        "author": "GitHub Action",
+        "date": "2025-08-21 02:29:24 +0000",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+        "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
         "verification_method": "git_log_local"
       }
     }
   ],
   "local_commits": [
     {
-      "sha": "d4c7340c",
+      "sha": "c4ac37e0",
       "full_sha_available": true,
-      "message": "Update index.html",
-      "author": "Kwahf33",
-      "date": "2025-08-19 20:33:27 -0600",
+      "message": "\ud83d\udcca Add historical metrics for 2025-08-21",
+      "author": "GitHub Action",
+      "date": "2025-08-21 02:29:24 +0000",
       "repository": "fedramp-20x-submission-final",
-      "commit_reference": "fedramp-20x-submission-final@d4c7340c",
+      "commit_reference": "fedramp-20x-submission-final@c4ac37e0",
       "verification_method": "git_log_local"
     }
   ],
@@ -854,7 +854,7 @@
   "approver": {
     "name": "Meridian Security Team",
     "title": "Chief Security Officer",
-    "approval_date": "2025-08-20T02:41:56.155442"
+    "approval_date": "2025-08-21T02:41:13.591571"
   },
   "fedramp_20x_compliance": {
     "decision_tree_followed": "FRA-SCN-03",
