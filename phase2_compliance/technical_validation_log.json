@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-28T09:12:09.432483",
+  "total_ksis_validated": 51,
+  "technical_issues_found": 7,
+  "issues": [
+    "KSI-MLA-04: Invalid percentage (122%) > 100%",
+    "KSI-MLA-05: Invalid percentage (138%) > 100%",
+    "KSI-INR-02: evidence_check should be 1 command, found 3",
+    "KSI-RPL-01: evidence_check should be 1 command, found 3",
+    "KSI-TPR-01: evidence_check should be 1 command, found 3",
+    "KSI-TPR-02: evidence_check should be 1 command, found 2",
+    "KSI-TPR-04: evidence_check should be 1 command, found 3"
+  ],
+  "status": "fail",
+  "categories_checked": [
+    "logical_consistency",
+    "scoring_mathematics",
+    "command_execution",
+    "evidence_alignment"
+  ]
+}
