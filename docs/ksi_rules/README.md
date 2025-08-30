@@ -46,7 +46,7 @@ This directory contains documentation for all Key Security Indicators (KSIs).
 - [PASS] [KSI-MLA-02](KSI-MLA-02.md): Regularly review and audit logs
 - [PASS] [KSI-MLA-03](KSI-MLA-03.md): Rapidly detect and remediate or mitigate vulnerabilities
 - [PASS] [KSI-MLA-04](KSI-MLA-04.md): Perform authenticated vulnerability scanning on information resources
-- [FAIL] [KSI-MLA-05](KSI-MLA-05.md): Perform Infrastructure as Code and configuration evaluation and testing
+- [PASS] [KSI-MLA-05](KSI-MLA-05.md): Perform Infrastructure as Code and configuration evaluation and testing
 - [PASS] [KSI-MLA-06](KSI-MLA-06.md): Centrally track and prioritize the mitigation and/or remediation of identified vulnerabilities
 
 ## Policy and Inventory
@@ -86,9 +86,9 @@ This directory contains documentation for all Key Security Indicators (KSIs).
 ## Summary
 
 - **Total KSIs:** 51
-- **Passing:** 50
-- **Failing:** 1
+- **Passing:** 51
+- **Failing:** 0
 - **Not Tested:** 0
 
 ---
-*Generated 2025-08-30 00:42 UTC*
+*Generated 2025-08-30 02:34 UTC*
