@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-29T02:39:48.461657",
+  "timestamp": "2025-08-30T00:43:08.491056",
   "scn_type": "routine_recurring",
   "emergency_mode": false,
   "requires_notification": false,
@@ -7,19 +7,9 @@
   "3pao_name": "Fortreum, LLC",
   "related_poam": null,
   "scn_type_explanation": "Regular operational maintenance per FRD-SCN-02",
-  "short_description": "Change involving 68 files",
+  "short_description": "Change involving 57 files",
   "reason_for_change": "Operational improvement and compliance maintenance",
   "changed_files": [
-    "3pao_audit_report.json",
-    "dashboard-data/assessed_vulnerabilities.json",
-    "dashboard-data/cve_aggregated_vulnerabilities.json",
-    "dashboard-data/cve_explicit_aggregation.json",
-    "dashboard-data/dashboard_metadata.json",
-    "dashboard-data/evaluated_vulnerabilities.json",
-    "dashboard-data/parsed_vulnerabilities.json",
-    "dashboard-data/pipeline_summary.json",
-    "dashboard-data/poam_generation_results.json",
-    "dashboard-data/poam_registry.json",
     "docs/ksi_rules/KSI-CED-01.md",
     "docs/ksi_rules/KSI-CED-02.md",
     "docs/ksi_rules/KSI-CMT-01.md",
@@ -75,909 +65,765 @@
     "results/continuous_ksi_results.json",
     "results/evidence_commit_metadata.json",
     "results/validation_engine_results.json",
-    "technical_validation_log.json",
-    "unified_ksi_validations.json",
-    "validation_consistency_log.json"
+    "ruleset_master.py",
+    "unified_ksi_validations.json"
   ],
   "changed_files_detailed": [
     {
-      "file": "3pao_audit_report.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/assessed_vulnerabilities.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/cve_aggregated_vulnerabilities.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/cve_explicit_aggregation.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/dashboard_metadata.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/evaluated_vulnerabilities.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/parsed_vulnerabilities.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/pipeline_summary.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/poam_generation_results.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "dashboard-data/poam_registry.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
       "file": "docs/ksi_rules/KSI-CED-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CED-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CMT-05.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-05.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-06.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-CNA-07.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-05.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-IAM-06.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-INR-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-05.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-MLA-06.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-05.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-06.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-PIY-07.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-RPL-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-05.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-06.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-SVC-07.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-01.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-02.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-03.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/KSI-TPR-04.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "docs/ksi_rules/README.md",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/continuous_ksi_results.json",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/evidence_commit_metadata.json",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "results/validation_engine_results.json",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
-      "file": "technical_validation_log.json",
+      "file": "ruleset_master.py",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     },
     {
       "file": "unified_ksi_validations.json",
       "commit": {
-        "sha": "147f785a",
+        "sha": "8fb532b8",
         "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
+        "message": "Update ruleset_master.py",
+        "author": "Kwahf33",
+        "date": "2025-08-29 18:37:19 -0600",
         "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
-        "verification_method": "git_log_local"
-      }
-    },
-    {
-      "file": "validation_consistency_log.json",
-      "commit": {
-        "sha": "147f785a",
-        "full_sha_available": true,
-        "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-        "author": "GitHub Action",
-        "date": "2025-08-29 02:29:08 +0000",
-        "repository": "fedramp-20x-submission-final",
-        "commit_reference": "fedramp-20x-submission-final@147f785a",
+        "commit_reference": "fedramp-20x-submission-final@8fb532b8",
         "verification_method": "git_log_local"
       }
     }
   ],
   "local_commits": [
     {
-      "sha": "147f785a",
+      "sha": "8fb532b8",
       "full_sha_available": true,
-      "message": "\ud83d\udcca Dashboard Data Update: scheduled (2025-08-29 02:29:07 UTC)",
-      "author": "GitHub Action",
-      "date": "2025-08-29 02:29:08 +0000",
+      "message": "Update ruleset_master.py",
+      "author": "Kwahf33",
+      "date": "2025-08-29 18:37:19 -0600",
       "repository": "fedramp-20x-submission-final",
-      "commit_reference": "fedramp-20x-submission-final@147f785a",
+      "commit_reference": "fedramp-20x-submission-final@8fb532b8",
       "verification_method": "git_log_local"
     }
   ],
-  "file_count": 68,
+  "file_count": 57,
   "audit_trail": {
     "local_changes_tracked": true,
     "commit_verification_available": true,
@@ -1008,7 +854,7 @@
   "approver": {
     "name": "Meridian Security Team",
     "title": "Chief Security Officer",
-    "approval_date": "2025-08-29T02:39:48.461657"
+    "approval_date": "2025-08-30T00:43:08.491056"
   },
   "fedramp_20x_compliance": {
     "decision_tree_followed": "FRA-SCN-03",
