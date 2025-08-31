@@ -4,7 +4,7 @@
 
 **Category:** Monitoring, Logging, and Auditing
 **Status:** PASS
-**Last Check:** 2025-08-31 03:12
+**Last Check:** 2025-08-31 04:17
 
 **What it validates:** Centrally track and prioritize the mitigation and/or remediation of identified vulnerabilities
 
@@ -45,10 +45,10 @@
 ## Latest Results
 
 PASS Production-ready automated vulnerability tracking and remediation workflows: PASS Centralized tracking: 100 Security Hub findings (2 critical, 72 high, 100 active)
-- PASS Vulnerability prioritization: 50 Inspector findings (0 critical, 36 high)
+- PASS Vulnerability prioritization: 50 Inspector findings (0 critical, 35 high)
 - PASS Vulnerability analytics: 1 Security Hub insights for trend analysis
 - PASS Stakeholder communication: 1 SNS topics for vulnerability notifications
 - PASS Enterprise governance: Organization-wide vulnerability tracking policies and remediation standards
 
 ---
-*Generated 2025-08-31 03:12 UTC*
+*Generated 2025-08-31 04:17 UTC*
