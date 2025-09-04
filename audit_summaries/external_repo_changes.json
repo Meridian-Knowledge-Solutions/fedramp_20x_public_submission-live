@@ -1,13 +1,67 @@
 {
-  "terraform_changes_detected": false,
-  "repositories_with_changes": [],
-  "total_commits": 0,
+  "terraform_changes_detected": true,
+  "repositories_with_changes": [
+    {
+      "repository": "meridian-aws-resources",
+      "has_changes": true,
+      "commit_count": 2,
+      "commits": [
+        {
+          "sha": "317e9026",
+          "message": "Merge pull request #20 from Meridian-Knowledge-Solutions/feature/fedramp-159/provision-proxy-server",
+          "author": "samuelnjei",
+          "date": "2025-09-03T14:53:38Z",
+          "url": "https://github.com/Meridian-Knowledge-Solutions/meridian-aws-resources/commit/317e90260962ad86654faa35fe7ace31e6227b6f",
+          "emergency_indicators": false
+        },
+        {
+          "sha": "3f7d23a6",
+          "message": "update the repo",
+          "author": "sam",
+          "date": "2025-09-03T14:49:56Z",
+          "url": "https://github.com/Meridian-Knowledge-Solutions/meridian-aws-resources/commit/3f7d23a65fb8fa1202735fb04a40ce77e9fa38b2",
+          "emergency_indicators": false
+        }
+      ],
+      "service_impact_category": "routine",
+      "service_impact_reason": "General infrastructure maintenance",
+      "infrastructure_type": "general_infrastructure"
+    }
+  ],
+  "total_commits": 2,
   "service_impact_analysis": {
     "transformative": [],
     "adaptive": [],
-    "routine": []
+    "routine": [
+      {
+        "repository": "meridian-aws-resources",
+        "has_changes": true,
+        "commit_count": 2,
+        "commits": [
+          {
+            "sha": "317e9026",
+            "message": "Merge pull request #20 from Meridian-Knowledge-Solutions/feature/fedramp-159/provision-proxy-server",
+            "author": "samuelnjei",
+            "date": "2025-09-03T14:53:38Z",
+            "url": "https://github.com/Meridian-Knowledge-Solutions/meridian-aws-resources/commit/317e90260962ad86654faa35fe7ace31e6227b6f",
+            "emergency_indicators": false
+          },
+          {
+            "sha": "3f7d23a6",
+            "message": "update the repo",
+            "author": "sam",
+            "date": "2025-09-03T14:49:56Z",
+            "url": "https://github.com/Meridian-Knowledge-Solutions/meridian-aws-resources/commit/3f7d23a65fb8fa1202735fb04a40ce77e9fa38b2",
+            "emergency_indicators": false
+          }
+        ],
+        "service_impact_category": "routine",
+        "service_impact_reason": "General infrastructure maintenance",
+        "infrastructure_type": "general_infrastructure"
+      }
+    ]
   },
-  "infrastructure_impact": "none",
+  "infrastructure_impact": "low",
   "scn_classification": "routine_recurring",
   "fedramp_20x_compliant": true
 }
